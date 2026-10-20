@@ -134,7 +134,7 @@ def cargar_registro(verboso: bool = True) -> dict[tuple, list[dict]]:
                 idx.setdefault((n_uoc(uoc), num.lstrip("0") or "0", aa), []).append(fila)
 
     if verboso:
-        print(f"registro: {leidas:,} convocatorias · {indexadas:,} indexadas "
+        print(f"registro: {leidas:,} convocatorias leídas · {indexadas:,} indexadas "
               f"({indexadas/leidas:.0%}) · {len(idx):,} llaves")
         if indexadas / leidas < 0.95:
             print("  ! Se descarta más del 5%. Revisá RX_PROCESO antes de confiar en el resultado.")
