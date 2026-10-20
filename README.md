@@ -1,12 +1,13 @@
 # Agente conciliador de contrataciones públicas
 
-> **Estado:** contrato de datos verificado · construyendo el agente
+> **Estado:** emparejamiento funcionando · agente en construcción
 >
-> **El número:** `COMPLETAR` discrepancias encontradas entre lo que el Estado
-> publicó en el Boletín Oficial y lo que figura en su propio registro oficial,
-> sobre `COMPLETAR` procesos cruzados. `COMPLETAR`% se resuelve solo;
-> el resto escala con la discrepancia señalada. `COMPLETAR` USD por caso contra
-> `COMPLETAR` USD de la revisión manual.
+> **El número:** sólo el **34%** de las licitaciones que el Estado argentino
+> publica en el Boletín Oficial puede verificarse contra su propio registro.
+> De las que sí: coinciden en tipo de procedimiento y monto, pero **la fecha de
+> apertura publicada está vencida en el 18% de los casos, siempre hacia
+> adelante, con un desvío medio de 13 días** — y **el 100% de los avisos omite
+> el monto estimado que el registro sí publica**.
 
 ---
 
@@ -82,10 +83,73 @@ modificatorias y rectificaciones que referencian avisos anteriores: el corpus se
 corrige a sí mismo y la edición posterior es la verdad. El agente pasaría a
 mantener el estado vigente de cada proceso en el tiempo, sin cruces externos.
 
+## Resultados del emparejamiento
+
+`python src/cruzar.py` sobre los 115 avisos etiquetados:
+
+| | | |
+|---|---:|---|
+| Sin UOC en el aviso | **64 · 56%** | el organismo no tramita por COMPR.AR: **no existe registro estructurado** |
+| Con llave, sin registro cargado | 12 · 10% | el portal publica con retraso y 2026 está incompleto |
+| Candidato dudoso | 0 · 0% | ninguno quedó bajo el umbral de confianza |
+| **Emparejado con confianza** | **39 · 34%** | verificable |
+
+**El hallazgo principal no es que el Estado se contradiga: es que dos tercios de
+lo que publica no se puede verificar.**
+
+### Sobre los 39 verificables
+
+Campos que **no** participan del emparejamiento, así que una diferencia acá es
+un hallazgo real y no un artefacto de cómo se eligió el candidato:
+
+| Campo | Difiere | Lectura |
+|---|---:|---|
+| `tipo_procedimiento` | 0 / 39 | coinciden siempre |
+| `monto_estimado` | 0 / 39 | nunca difieren… porque el aviso nunca lo trae |
+| **`fecha_apertura`** | **7 / 39 · 18%** | **la fecha publicada queda vencida** |
+
+**Las siete fechas se mueven hacia adelante y ninguna hacia atrás**: +8, +10,
++10, +11, +12, +18 y +20 días. Media +12,7, mediana +11. La dirección única
+descarta el ruido: son **prórrogas** que el registro refleja y el aviso
+publicado no.
+
+Un proveedor que se guía por el Boletín Oficial —la publicación con validez
+jurídica— ve una fecha de cierre anterior a la real en casi uno de cada cinco
+llamados. Y **sólo 1 de esos 7 avisos resultó sospechoso al etiquetarlo a mano**:
+los otros 6 se leen como cualquier aviso normal. La desactualización es invisible
+sin el cruce.
+
+### La brecha de cobertura
+
+| Campo | El aviso lo omite y el registro lo tiene |
+|---|---:|
+| `monto_estimado` | **39 de 39 · 100%** |
+| `fecha_apertura` | 8 de 39 · 21% |
+
+**Los 39 avisos verificables omiten el monto estimado.** El registro lo publica
+en todos, con valores de cientos de millones de pesos. Quien lee el Boletín no
+puede saber el presupuesto del llamado; quien lee el portal de datos abiertos,
+sí. Son dos publicaciones del mismo Estado con distinto nivel de transparencia,
+y por eso se reporta aparte de las discrepancias.
+
 ## Arquitectura
 
 ```
-COMPLETAR cuando el cruce esté confirmado
+aviso del Boletín (texto)
+   │
+   ├─ llave:  UOC + numero_procedimiento + año  ->  84/129-0362-LPU26
+   │
+   ├─ src/cruzar.py ──► candidatos del registro (la llave NO es única:
+   │      │              111.452 llaves para 128.951 convocatorias)
+   │      │
+   │      ├─ CONFIANZA DE EMPAREJAMIENTO ¿es el mismo proceso?
+   │      │     objeto 0.55 · cronología 0.30 · unicidad 0.15
+   │      │     por debajo de 0.55 -> revisión humana, no se compara nada
+   │      │
+   │      └─ COMPARACIÓN sólo de campos que no se usaron para emparejar
+   │            discrepancia real  |  brecha de cobertura  |  coincide
+   │
+   └─ reports/cruce.jsonl ──► una línea por aviso, con señales y decisión
 ```
 
 ## De dónde salen los datos
