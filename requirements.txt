@@ -1,0 +1,2 @@
+# El verificador del cruce no necesita nada: solo la libreria estandar.
+# Las dependencias del agente se agregan cuando el cruce este confirmado.

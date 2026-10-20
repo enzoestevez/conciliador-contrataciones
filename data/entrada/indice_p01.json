@@ -1,0 +1,4742 @@
+[
+  {
+    "id": "32082-26",
+    "nro_aviso": "32082/26",
+    "edicion": "20260601",
+    "publicado_desde": "18/05/2026",
+    "vence": "08/06/2026",
+    "rubro": "OBRAS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1272,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "32082-26.txt"
+  },
+  {
+    "id": "32410-26",
+    "nro_aviso": "32410/26",
+    "edicion": "20260601",
+    "publicado_desde": "15/05/2026",
+    "vence": "05/06/2026",
+    "rubro": "OBRAS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 496,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "32410-26.txt"
+  },
+  {
+    "id": "33031-26",
+    "nro_aviso": "33031/26",
+    "edicion": "20260601",
+    "publicado_desde": "22/05/2026",
+    "vence": "12/06/2026",
+    "rubro": "OBRAS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1384,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "33031-26.txt"
+  },
+  {
+    "id": "33235-26",
+    "nro_aviso": "33235/26",
+    "edicion": "20260601",
+    "publicado_desde": "28/05/2026",
+    "vence": "02/06/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1215,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "33235-26.txt"
+  },
+  {
+    "id": "33238-26",
+    "nro_aviso": "33238/26",
+    "edicion": "20260601",
+    "publicado_desde": "27/05/2026",
+    "vence": "01/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1292,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "33238-26.txt"
+  },
+  {
+    "id": "33849-26",
+    "nro_aviso": "33849/26",
+    "edicion": "20260601",
+    "publicado_desde": "20/05/2026",
+    "vence": "10/06/2026",
+    "rubro": "OBRAS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1277,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "33849-26.txt"
+  },
+  {
+    "id": "34718-26",
+    "nro_aviso": "34718/26",
+    "edicion": "20260601",
+    "publicado_desde": "26/05/2026",
+    "vence": "01/06/2026",
+    "rubro": "ADJUDICACIONES",
+    "tipo": "adjudicacion",
+    "formato": "libre",
+    "caracteres": 262,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "34718-26.txt"
+  },
+  {
+    "id": "35143-26",
+    "nro_aviso": "35143/26",
+    "edicion": "20260601",
+    "publicado_desde": "26/05/2026",
+    "vence": "01/06/2026",
+    "rubro": "OBRAS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1370,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "35143-26.txt"
+  },
+  {
+    "id": "35365-26",
+    "nro_aviso": "35365/26",
+    "edicion": "20260601",
+    "publicado_desde": "29/05/2026",
+    "vence": "01/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1106,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "35365-26.txt"
+  },
+  {
+    "id": "35467-26",
+    "nro_aviso": "35467/26",
+    "edicion": "20260601",
+    "publicado_desde": "01/06/2026",
+    "vence": "22/06/2026",
+    "rubro": "OBRAS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 987,
+    "ediciones": [
+      "20260601",
+      "20260619"
+    ],
+    "apariciones": 2,
+    "txt": "35467-26.txt"
+  },
+  {
+    "id": "35468-26",
+    "nro_aviso": "35468/26",
+    "edicion": "20260601",
+    "publicado_desde": "01/06/2026",
+    "vence": "22/06/2026",
+    "rubro": "OBRAS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 980,
+    "ediciones": [
+      "20260601",
+      "20260619"
+    ],
+    "apariciones": 2,
+    "txt": "35468-26.txt"
+  },
+  {
+    "id": "35547-26",
+    "nro_aviso": "35547/26",
+    "edicion": "20260601",
+    "publicado_desde": "27/05/2026",
+    "vence": "09/06/2026",
+    "rubro": "OBRAS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 904,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "35547-26.txt"
+  },
+  {
+    "id": "35578-26",
+    "nro_aviso": "35578/26",
+    "edicion": "20260601",
+    "publicado_desde": "29/05/2026",
+    "vence": "01/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1095,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "35578-26.txt"
+  },
+  {
+    "id": "35800-26",
+    "nro_aviso": "35800/26",
+    "edicion": "20260601",
+    "publicado_desde": "28/05/2026",
+    "vence": "01/06/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1580,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "35800-26.txt"
+  },
+  {
+    "id": "35982-26",
+    "nro_aviso": "35982/26",
+    "edicion": "20260601",
+    "publicado_desde": "29/05/2026",
+    "vence": "01/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1083,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "35982-26.txt"
+  },
+  {
+    "id": "36002-26",
+    "nro_aviso": "36002/26",
+    "edicion": "20260601",
+    "publicado_desde": "29/05/2026",
+    "vence": "01/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 809,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36002-26.txt"
+  },
+  {
+    "id": "36003-26",
+    "nro_aviso": "36003/26",
+    "edicion": "20260601",
+    "publicado_desde": "29/05/2026",
+    "vence": "01/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1654,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36003-26.txt"
+  },
+  {
+    "id": "36006-26",
+    "nro_aviso": "36006/26",
+    "edicion": "20260601",
+    "publicado_desde": "29/05/2026",
+    "vence": "01/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1650,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36006-26.txt"
+  },
+  {
+    "id": "36007-26",
+    "nro_aviso": "36007/26",
+    "edicion": "20260601",
+    "publicado_desde": "29/05/2026",
+    "vence": "01/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 445,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36007-26.txt"
+  },
+  {
+    "id": "36041-26",
+    "nro_aviso": "36041/26",
+    "edicion": "20260601",
+    "publicado_desde": "29/05/2026",
+    "vence": "01/06/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1779,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36041-26.txt"
+  },
+  {
+    "id": "36042-26",
+    "nro_aviso": "36042/26",
+    "edicion": "20260601",
+    "publicado_desde": "29/05/2026",
+    "vence": "01/06/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1754,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36042-26.txt"
+  },
+  {
+    "id": "36043-26",
+    "nro_aviso": "36043/26",
+    "edicion": "20260601",
+    "publicado_desde": "29/05/2026",
+    "vence": "01/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 478,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36043-26.txt"
+  },
+  {
+    "id": "36208-26",
+    "nro_aviso": "36208/26",
+    "edicion": "20260601",
+    "publicado_desde": "29/05/2026",
+    "vence": "01/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 535,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36208-26.txt"
+  },
+  {
+    "id": "36222-26",
+    "nro_aviso": "36222/26",
+    "edicion": "20260601",
+    "publicado_desde": "29/05/2026",
+    "vence": "01/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1099,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36222-26.txt"
+  },
+  {
+    "id": "36227-26",
+    "nro_aviso": "36227/26",
+    "edicion": "20260601",
+    "publicado_desde": "29/05/2026",
+    "vence": "01/06/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 803,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36227-26.txt"
+  },
+  {
+    "id": "36229-26",
+    "nro_aviso": "36229/26",
+    "edicion": "20260601",
+    "publicado_desde": "29/05/2026",
+    "vence": "01/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 514,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36229-26.txt"
+  },
+  {
+    "id": "36284-26",
+    "nro_aviso": "36284/26",
+    "edicion": "20260601",
+    "publicado_desde": "29/05/2026",
+    "vence": "02/06/2026",
+    "rubro": "OBRAS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 967,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36284-26.txt"
+  },
+  {
+    "id": "36300-26",
+    "nro_aviso": "36300/26",
+    "edicion": "20260601",
+    "publicado_desde": "29/05/2026",
+    "vence": "01/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 444,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36300-26.txt"
+  },
+  {
+    "id": "36302-26",
+    "nro_aviso": "36302/26",
+    "edicion": "20260601",
+    "publicado_desde": "29/05/2026",
+    "vence": "01/06/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1081,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36302-26.txt"
+  },
+  {
+    "id": "36326-26",
+    "nro_aviso": "36326/26",
+    "edicion": "20260601",
+    "publicado_desde": "29/05/2026",
+    "vence": "01/06/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1217,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36326-26.txt"
+  },
+  {
+    "id": "36327-26",
+    "nro_aviso": "36327/26",
+    "edicion": "20260601",
+    "publicado_desde": "01/06/2026",
+    "vence": "01/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1261,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36327-26.txt"
+  },
+  {
+    "id": "36356-26",
+    "nro_aviso": "36356/26",
+    "edicion": "20260601",
+    "publicado_desde": "29/05/2026",
+    "vence": "01/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 594,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36356-26.txt"
+  },
+  {
+    "id": "36358-26",
+    "nro_aviso": "36358/26",
+    "edicion": "20260601",
+    "publicado_desde": "29/05/2026",
+    "vence": "01/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1133,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36358-26.txt"
+  },
+  {
+    "id": "36359-26",
+    "nro_aviso": "36359/26",
+    "edicion": "20260601",
+    "publicado_desde": "29/05/2026",
+    "vence": "01/06/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1132,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36359-26.txt"
+  },
+  {
+    "id": "36361-26",
+    "nro_aviso": "36361/26",
+    "edicion": "20260601",
+    "publicado_desde": "29/05/2026",
+    "vence": "01/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 615,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36361-26.txt"
+  },
+  {
+    "id": "36405-26",
+    "nro_aviso": "36405/26",
+    "edicion": "20260601",
+    "publicado_desde": "29/05/2026",
+    "vence": "01/06/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1117,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36405-26.txt"
+  },
+  {
+    "id": "36450-26",
+    "nro_aviso": "36450/26",
+    "edicion": "20260601",
+    "publicado_desde": "29/05/2026",
+    "vence": "01/06/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1125,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36450-26.txt"
+  },
+  {
+    "id": "36478-26",
+    "nro_aviso": "36478/26",
+    "edicion": "20260601",
+    "publicado_desde": "01/06/2026",
+    "vence": "02/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 578,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36478-26.txt"
+  },
+  {
+    "id": "36704-26",
+    "nro_aviso": "36704/26",
+    "edicion": "20260601",
+    "publicado_desde": "01/06/2026",
+    "vence": "02/06/2026",
+    "rubro": "VENTAS Y OFRECIMIENTOS DEL ESTADO",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 2571,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36704-26.txt"
+  },
+  {
+    "id": "36706-26",
+    "nro_aviso": "36706/26",
+    "edicion": "20260601",
+    "publicado_desde": "01/06/2026",
+    "vence": "01/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 361,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36706-26.txt"
+  },
+  {
+    "id": "36709-26",
+    "nro_aviso": "36709/26",
+    "edicion": "20260601",
+    "publicado_desde": "01/06/2026",
+    "vence": "01/06/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 2042,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36709-26.txt"
+  },
+  {
+    "id": "36712-26",
+    "nro_aviso": "36712/26",
+    "edicion": "20260601",
+    "publicado_desde": "01/06/2026",
+    "vence": "02/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1105,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36712-26.txt"
+  },
+  {
+    "id": "36722-26",
+    "nro_aviso": "36722/26",
+    "edicion": "20260601",
+    "publicado_desde": "01/06/2026",
+    "vence": "02/06/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1060,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36722-26.txt"
+  },
+  {
+    "id": "36724-26",
+    "nro_aviso": "36724/26",
+    "edicion": "20260601",
+    "publicado_desde": "01/06/2026",
+    "vence": "01/06/2026",
+    "rubro": "ADJUDICACIONES",
+    "tipo": "adjudicacion",
+    "formato": "comprar",
+    "caracteres": 726,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36724-26.txt"
+  },
+  {
+    "id": "36725-26",
+    "nro_aviso": "36725/26",
+    "edicion": "20260601",
+    "publicado_desde": "01/06/2026",
+    "vence": "02/06/2026",
+    "rubro": "VENTAS Y OFRECIMIENTOS DEL ESTADO",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 3183,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36725-26.txt"
+  },
+  {
+    "id": "36727-26",
+    "nro_aviso": "36727/26",
+    "edicion": "20260601",
+    "publicado_desde": "01/06/2026",
+    "vence": "02/06/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1261,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36727-26.txt"
+  },
+  {
+    "id": "36732-26",
+    "nro_aviso": "36732/26",
+    "edicion": "20260601",
+    "publicado_desde": "01/06/2026",
+    "vence": "02/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1013,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36732-26.txt"
+  },
+  {
+    "id": "36735-26",
+    "nro_aviso": "36735/26",
+    "edicion": "20260601",
+    "publicado_desde": "01/06/2026",
+    "vence": "02/06/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1393,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36735-26.txt"
+  },
+  {
+    "id": "36739-26",
+    "nro_aviso": "36739/26",
+    "edicion": "20260601",
+    "publicado_desde": "01/06/2026",
+    "vence": "02/06/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1086,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36739-26.txt"
+  },
+  {
+    "id": "36740-26",
+    "nro_aviso": "36740/26",
+    "edicion": "20260601",
+    "publicado_desde": "01/06/2026",
+    "vence": "02/06/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1107,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36740-26.txt"
+  },
+  {
+    "id": "36742-26",
+    "nro_aviso": "36742/26",
+    "edicion": "20260601",
+    "publicado_desde": "01/06/2026",
+    "vence": "01/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 674,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36742-26.txt"
+  },
+  {
+    "id": "36745-26",
+    "nro_aviso": "36745/26",
+    "edicion": "20260601",
+    "publicado_desde": "01/06/2026",
+    "vence": "02/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1080,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36745-26.txt"
+  },
+  {
+    "id": "36751-26",
+    "nro_aviso": "36751/26",
+    "edicion": "20260601",
+    "publicado_desde": "01/06/2026",
+    "vence": "02/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 569,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36751-26.txt"
+  },
+  {
+    "id": "36752-26",
+    "nro_aviso": "36752/26",
+    "edicion": "20260601",
+    "publicado_desde": "01/06/2026",
+    "vence": "01/06/2026",
+    "rubro": "ADJUDICACIONES",
+    "tipo": "adjudicacion",
+    "formato": "comprar",
+    "caracteres": 3131,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36752-26.txt"
+  },
+  {
+    "id": "36754-26",
+    "nro_aviso": "36754/26",
+    "edicion": "20260601",
+    "publicado_desde": "01/06/2026",
+    "vence": "02/06/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 659,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36754-26.txt"
+  },
+  {
+    "id": "36755-26",
+    "nro_aviso": "36755/26",
+    "edicion": "20260601",
+    "publicado_desde": "01/06/2026",
+    "vence": "02/06/2026",
+    "rubro": "ADJUDICACIONES",
+    "tipo": "adjudicacion",
+    "formato": "libre",
+    "caracteres": 600,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36755-26.txt"
+  },
+  {
+    "id": "36770-26",
+    "nro_aviso": "36770/26",
+    "edicion": "20260601",
+    "publicado_desde": "01/06/2026",
+    "vence": "02/06/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1090,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36770-26.txt"
+  },
+  {
+    "id": "36772-26",
+    "nro_aviso": "36772/26",
+    "edicion": "20260601",
+    "publicado_desde": "01/06/2026",
+    "vence": "02/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 572,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36772-26.txt"
+  },
+  {
+    "id": "36820-26",
+    "nro_aviso": "36820/26",
+    "edicion": "20260601",
+    "publicado_desde": "01/06/2026",
+    "vence": "01/06/2026",
+    "rubro": "ADJUDICACIONES",
+    "tipo": "adjudicacion",
+    "formato": "libre",
+    "caracteres": 922,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36820-26.txt"
+  },
+  {
+    "id": "36822-26",
+    "nro_aviso": "36822/26",
+    "edicion": "20260601",
+    "publicado_desde": "01/06/2026",
+    "vence": "01/06/2026",
+    "rubro": "ADJUDICACIONES",
+    "tipo": "adjudicacion",
+    "formato": "libre",
+    "caracteres": 489,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36822-26.txt"
+  },
+  {
+    "id": "36823-26",
+    "nro_aviso": "36823/26",
+    "edicion": "20260601",
+    "publicado_desde": "01/06/2026",
+    "vence": "01/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 950,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36823-26.txt"
+  },
+  {
+    "id": "36824-26",
+    "nro_aviso": "36824/26",
+    "edicion": "20260601",
+    "publicado_desde": "01/06/2026",
+    "vence": "02/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1095,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36824-26.txt"
+  },
+  {
+    "id": "36834-26",
+    "nro_aviso": "36834/26",
+    "edicion": "20260601",
+    "publicado_desde": "01/06/2026",
+    "vence": "02/06/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1101,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36834-26.txt"
+  },
+  {
+    "id": "36838-26",
+    "nro_aviso": "36838/26",
+    "edicion": "20260601",
+    "publicado_desde": "01/06/2026",
+    "vence": "01/06/2026",
+    "rubro": "ADJUDICACIONES",
+    "tipo": "adjudicacion",
+    "formato": "libre",
+    "caracteres": 518,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36838-26.txt"
+  },
+  {
+    "id": "36852-26",
+    "nro_aviso": "36852/26",
+    "edicion": "20260601",
+    "publicado_desde": "01/06/2026",
+    "vence": "01/06/2026",
+    "rubro": "PREADJUDICACIONES",
+    "tipo": "preadjudicacion",
+    "formato": "libre",
+    "caracteres": 1165,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36852-26.txt"
+  },
+  {
+    "id": "36881-26",
+    "nro_aviso": "36881/26",
+    "edicion": "20260601",
+    "publicado_desde": "01/06/2026",
+    "vence": "01/06/2026",
+    "rubro": "ADJUDICACIONES",
+    "tipo": "adjudicacion",
+    "formato": "libre",
+    "caracteres": 1625,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36881-26.txt"
+  },
+  {
+    "id": "36899-26",
+    "nro_aviso": "36899/26",
+    "edicion": "20260601",
+    "publicado_desde": "01/06/2026",
+    "vence": "01/06/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 983,
+    "ediciones": [
+      "20260601"
+    ],
+    "apariciones": 1,
+    "txt": "36899-26.txt"
+  },
+  {
+    "id": "37721-26",
+    "nro_aviso": "37721/26",
+    "edicion": "20260619",
+    "publicado_desde": "04/06/2026",
+    "vence": "25/06/2026",
+    "rubro": "OBRAS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 856,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "37721-26.txt"
+  },
+  {
+    "id": "38457-26",
+    "nro_aviso": "38457/26",
+    "edicion": "20260619",
+    "publicado_desde": "05/06/2026",
+    "vence": "19/06/2026",
+    "rubro": "OBRAS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 2061,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "38457-26.txt"
+  },
+  {
+    "id": "39989-26",
+    "nro_aviso": "39989/26",
+    "edicion": "20260619",
+    "publicado_desde": "17/06/2026",
+    "vence": "19/06/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1600,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "39989-26.txt"
+  },
+  {
+    "id": "40180-26",
+    "nro_aviso": "40180/26",
+    "edicion": "20260619",
+    "publicado_desde": "12/06/2026",
+    "vence": "26/06/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 817,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "40180-26.txt"
+  },
+  {
+    "id": "40608-26",
+    "nro_aviso": "40608/26",
+    "edicion": "20260619",
+    "publicado_desde": "12/06/2026",
+    "vence": "19/06/2026",
+    "rubro": "OBRAS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 4220,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "40608-26.txt"
+  },
+  {
+    "id": "41465-26",
+    "nro_aviso": "41465/26",
+    "edicion": "20260619",
+    "publicado_desde": "17/06/2026",
+    "vence": "19/06/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 675,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "41465-26.txt"
+  },
+  {
+    "id": "41469-26",
+    "nro_aviso": "41469/26",
+    "edicion": "20260619",
+    "publicado_desde": "17/06/2026",
+    "vence": "19/06/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 684,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "41469-26.txt"
+  },
+  {
+    "id": "41709-26",
+    "nro_aviso": "41709/26",
+    "edicion": "20260619",
+    "publicado_desde": "18/06/2026",
+    "vence": "19/06/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1730,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "41709-26.txt"
+  },
+  {
+    "id": "41746-26",
+    "nro_aviso": "41746/26",
+    "edicion": "20260619",
+    "publicado_desde": "18/06/2026",
+    "vence": "19/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 801,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "41746-26.txt"
+  },
+  {
+    "id": "41930-26",
+    "nro_aviso": "41930/26",
+    "edicion": "20260619",
+    "publicado_desde": "19/06/2026",
+    "vence": "19/06/2026",
+    "rubro": "PREADJUDICACIONES",
+    "tipo": "preadjudicacion",
+    "formato": "libre",
+    "caracteres": 789,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "41930-26.txt"
+  },
+  {
+    "id": "41935-26",
+    "nro_aviso": "41935/26",
+    "edicion": "20260619",
+    "publicado_desde": "18/06/2026",
+    "vence": "19/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1431,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "41935-26.txt"
+  },
+  {
+    "id": "41936-26",
+    "nro_aviso": "41936/26",
+    "edicion": "20260619",
+    "publicado_desde": "18/06/2026",
+    "vence": "19/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1461,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "41936-26.txt"
+  },
+  {
+    "id": "41938-26",
+    "nro_aviso": "41938/26",
+    "edicion": "20260619",
+    "publicado_desde": "18/06/2026",
+    "vence": "19/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 463,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "41938-26.txt"
+  },
+  {
+    "id": "41939-26",
+    "nro_aviso": "41939/26",
+    "edicion": "20260619",
+    "publicado_desde": "18/06/2026",
+    "vence": "19/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1441,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "41939-26.txt"
+  },
+  {
+    "id": "41941-26",
+    "nro_aviso": "41941/26",
+    "edicion": "20260619",
+    "publicado_desde": "18/06/2026",
+    "vence": "19/06/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1083,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "41941-26.txt"
+  },
+  {
+    "id": "41943-26",
+    "nro_aviso": "41943/26",
+    "edicion": "20260619",
+    "publicado_desde": "18/06/2026",
+    "vence": "19/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1190,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "41943-26.txt"
+  },
+  {
+    "id": "41945-26",
+    "nro_aviso": "41945/26",
+    "edicion": "20260619",
+    "publicado_desde": "18/06/2026",
+    "vence": "19/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1098,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "41945-26.txt"
+  },
+  {
+    "id": "41946-26",
+    "nro_aviso": "41946/26",
+    "edicion": "20260619",
+    "publicado_desde": "18/06/2026",
+    "vence": "19/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1146,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "41946-26.txt"
+  },
+  {
+    "id": "41976-26",
+    "nro_aviso": "41976/26",
+    "edicion": "20260619",
+    "publicado_desde": "18/06/2026",
+    "vence": "19/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1131,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "41976-26.txt"
+  },
+  {
+    "id": "42045-26",
+    "nro_aviso": "42045/26",
+    "edicion": "20260619",
+    "publicado_desde": "18/06/2026",
+    "vence": "19/06/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1597,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "42045-26.txt"
+  },
+  {
+    "id": "42068-26",
+    "nro_aviso": "42068/26",
+    "edicion": "20260619",
+    "publicado_desde": "18/06/2026",
+    "vence": "19/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1283,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "42068-26.txt"
+  },
+  {
+    "id": "42071-26",
+    "nro_aviso": "42071/26",
+    "edicion": "20260619",
+    "publicado_desde": "18/06/2026",
+    "vence": "19/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1228,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "42071-26.txt"
+  },
+  {
+    "id": "42072-26",
+    "nro_aviso": "42072/26",
+    "edicion": "20260619",
+    "publicado_desde": "18/06/2026",
+    "vence": "19/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 651,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "42072-26.txt"
+  },
+  {
+    "id": "42081-26",
+    "nro_aviso": "42081/26",
+    "edicion": "20260619",
+    "publicado_desde": "18/06/2026",
+    "vence": "19/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1491,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "42081-26.txt"
+  },
+  {
+    "id": "42082-26",
+    "nro_aviso": "42082/26",
+    "edicion": "20260619",
+    "publicado_desde": "18/06/2026",
+    "vence": "19/06/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1176,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "42082-26.txt"
+  },
+  {
+    "id": "42098-26",
+    "nro_aviso": "42098/26",
+    "edicion": "20260619",
+    "publicado_desde": "18/06/2026",
+    "vence": "19/06/2026",
+    "rubro": "LOCACIONES",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1160,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "42098-26.txt"
+  },
+  {
+    "id": "42100-26",
+    "nro_aviso": "42100/26",
+    "edicion": "20260619",
+    "publicado_desde": "18/06/2026",
+    "vence": "19/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1141,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "42100-26.txt"
+  },
+  {
+    "id": "42142-26",
+    "nro_aviso": "42142/26",
+    "edicion": "20260619",
+    "publicado_desde": "18/06/2026",
+    "vence": "19/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 744,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "42142-26.txt"
+  },
+  {
+    "id": "42180-26",
+    "nro_aviso": "42180/26",
+    "edicion": "20260619",
+    "publicado_desde": "19/06/2026",
+    "vence": "22/06/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1100,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "42180-26.txt"
+  },
+  {
+    "id": "42345-26",
+    "nro_aviso": "42345/26",
+    "edicion": "20260619",
+    "publicado_desde": "19/06/2026",
+    "vence": "19/06/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 748,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "42345-26.txt"
+  },
+  {
+    "id": "42366-26",
+    "nro_aviso": "42366/26",
+    "edicion": "20260619",
+    "publicado_desde": "19/06/2026",
+    "vence": "19/06/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 2065,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "42366-26.txt"
+  },
+  {
+    "id": "42367-26",
+    "nro_aviso": "42367/26",
+    "edicion": "20260619",
+    "publicado_desde": "19/06/2026",
+    "vence": "22/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 754,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "42367-26.txt"
+  },
+  {
+    "id": "42371-26",
+    "nro_aviso": "42371/26",
+    "edicion": "20260619",
+    "publicado_desde": "19/06/2026",
+    "vence": "22/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 746,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "42371-26.txt"
+  },
+  {
+    "id": "42373-26",
+    "nro_aviso": "42373/26",
+    "edicion": "20260619",
+    "publicado_desde": "19/06/2026",
+    "vence": "19/06/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 700,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "42373-26.txt"
+  },
+  {
+    "id": "42379-26",
+    "nro_aviso": "42379/26",
+    "edicion": "20260619",
+    "publicado_desde": "19/06/2026",
+    "vence": "19/06/2026",
+    "rubro": "ADJUDICACIONES",
+    "tipo": "adjudicacion",
+    "formato": "libre",
+    "caracteres": 1277,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "42379-26.txt"
+  },
+  {
+    "id": "42381-26",
+    "nro_aviso": "42381/26",
+    "edicion": "20260619",
+    "publicado_desde": "19/06/2026",
+    "vence": "22/06/2026",
+    "rubro": "LOCACIONES",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1178,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "42381-26.txt"
+  },
+  {
+    "id": "42383-26",
+    "nro_aviso": "42383/26",
+    "edicion": "20260619",
+    "publicado_desde": "19/06/2026",
+    "vence": "22/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1100,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "42383-26.txt"
+  },
+  {
+    "id": "42394-26",
+    "nro_aviso": "42394/26",
+    "edicion": "20260619",
+    "publicado_desde": "19/06/2026",
+    "vence": "22/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 517,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "42394-26.txt"
+  },
+  {
+    "id": "42398-26",
+    "nro_aviso": "42398/26",
+    "edicion": "20260619",
+    "publicado_desde": "19/06/2026",
+    "vence": "19/06/2026",
+    "rubro": "PREADJUDICACIONES",
+    "tipo": "preadjudicacion",
+    "formato": "libre",
+    "caracteres": 469,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "42398-26.txt"
+  },
+  {
+    "id": "42400-26",
+    "nro_aviso": "42400/26",
+    "edicion": "20260619",
+    "publicado_desde": "19/06/2026",
+    "vence": "19/06/2026",
+    "rubro": "ADJUDICACIONES",
+    "tipo": "adjudicacion",
+    "formato": "libre",
+    "caracteres": 607,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "42400-26.txt"
+  },
+  {
+    "id": "42401-26",
+    "nro_aviso": "42401/26",
+    "edicion": "20260619",
+    "publicado_desde": "19/06/2026",
+    "vence": "19/06/2026",
+    "rubro": "VENTAS Y OFRECIMIENTOS DEL ESTADO",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1127,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "42401-26.txt"
+  },
+  {
+    "id": "42402-26",
+    "nro_aviso": "42402/26",
+    "edicion": "20260619",
+    "publicado_desde": "19/06/2026",
+    "vence": "22/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1103,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "42402-26.txt"
+  },
+  {
+    "id": "42405-26",
+    "nro_aviso": "42405/26",
+    "edicion": "20260619",
+    "publicado_desde": "19/06/2026",
+    "vence": "22/06/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1141,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "42405-26.txt"
+  },
+  {
+    "id": "42421-26",
+    "nro_aviso": "42421/26",
+    "edicion": "20260619",
+    "publicado_desde": "19/06/2026",
+    "vence": "22/06/2026",
+    "rubro": "ADJUDICACIONES",
+    "tipo": "adjudicacion",
+    "formato": "libre",
+    "caracteres": 520,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "42421-26.txt"
+  },
+  {
+    "id": "42422-26",
+    "nro_aviso": "42422/26",
+    "edicion": "20260619",
+    "publicado_desde": "19/06/2026",
+    "vence": "19/06/2026",
+    "rubro": "ADJUDICACIONES",
+    "tipo": "adjudicacion",
+    "formato": "comprar",
+    "caracteres": 517,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "42422-26.txt"
+  },
+  {
+    "id": "42423-26",
+    "nro_aviso": "42423/26",
+    "edicion": "20260619",
+    "publicado_desde": "19/06/2026",
+    "vence": "19/06/2026",
+    "rubro": "ADJUDICACIONES",
+    "tipo": "adjudicacion",
+    "formato": "libre",
+    "caracteres": 1867,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "42423-26.txt"
+  },
+  {
+    "id": "42424-26",
+    "nro_aviso": "42424/26",
+    "edicion": "20260619",
+    "publicado_desde": "19/06/2026",
+    "vence": "22/06/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1167,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "42424-26.txt"
+  },
+  {
+    "id": "42434-26",
+    "nro_aviso": "42434/26",
+    "edicion": "20260619",
+    "publicado_desde": "19/06/2026",
+    "vence": "19/06/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1017,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "42434-26.txt"
+  },
+  {
+    "id": "42463-26",
+    "nro_aviso": "42463/26",
+    "edicion": "20260619",
+    "publicado_desde": "19/06/2026",
+    "vence": "19/06/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 871,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "42463-26.txt"
+  },
+  {
+    "id": "42508-26",
+    "nro_aviso": "42508/26",
+    "edicion": "20260619",
+    "publicado_desde": "19/06/2026",
+    "vence": "19/06/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 581,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "42508-26.txt"
+  },
+  {
+    "id": "42561-26",
+    "nro_aviso": "42561/26",
+    "edicion": "20260619",
+    "publicado_desde": "19/06/2026",
+    "vence": "19/06/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 824,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "42561-26.txt"
+  },
+  {
+    "id": "42562-26",
+    "nro_aviso": "42562/26",
+    "edicion": "20260619",
+    "publicado_desde": "19/06/2026",
+    "vence": "23/06/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1228,
+    "ediciones": [
+      "20260619"
+    ],
+    "apariciones": 1,
+    "txt": "42562-26.txt"
+  },
+  {
+    "id": "42843-26",
+    "nro_aviso": "42843/26",
+    "edicion": "20260701",
+    "publicado_desde": "22/06/2026",
+    "vence": "03/07/2026",
+    "rubro": "OBRAS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1404,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "42843-26.txt"
+  },
+  {
+    "id": "42895-26",
+    "nro_aviso": "42895/26",
+    "edicion": "20260701",
+    "publicado_desde": "22/06/2026",
+    "vence": "03/07/2026",
+    "rubro": "OBRAS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 921,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "42895-26.txt"
+  },
+  {
+    "id": "44451-26",
+    "nro_aviso": "44451/26",
+    "edicion": "20260701",
+    "publicado_desde": "29/06/2026",
+    "vence": "03/07/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1277,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "44451-26.txt"
+  },
+  {
+    "id": "44454-26",
+    "nro_aviso": "44454/26",
+    "edicion": "20260701",
+    "publicado_desde": "26/06/2026",
+    "vence": "02/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 864,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "44454-26.txt"
+  },
+  {
+    "id": "44538-26",
+    "nro_aviso": "44538/26",
+    "edicion": "20260701",
+    "publicado_desde": "30/06/2026",
+    "vence": "01/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1069,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "44538-26.txt"
+  },
+  {
+    "id": "44821-26",
+    "nro_aviso": "44821/26",
+    "edicion": "20260701",
+    "publicado_desde": "29/06/2026",
+    "vence": "14/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1051,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "44821-26.txt"
+  },
+  {
+    "id": "44877-26",
+    "nro_aviso": "44877/26",
+    "edicion": "20260701",
+    "publicado_desde": "30/06/2026",
+    "vence": "01/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1123,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "44877-26.txt"
+  },
+  {
+    "id": "44963-26",
+    "nro_aviso": "44963/26",
+    "edicion": "20260701",
+    "publicado_desde": "01/07/2026",
+    "vence": "02/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1131,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "44963-26.txt"
+  },
+  {
+    "id": "44965-26",
+    "nro_aviso": "44965/26",
+    "edicion": "20260701",
+    "publicado_desde": "01/07/2026",
+    "vence": "02/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1101,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "44965-26.txt"
+  },
+  {
+    "id": "44990-26",
+    "nro_aviso": "44990/26",
+    "edicion": "20260701",
+    "publicado_desde": "30/06/2026",
+    "vence": "01/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1246,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "44990-26.txt"
+  },
+  {
+    "id": "45028-26",
+    "nro_aviso": "45028/26",
+    "edicion": "20260701",
+    "publicado_desde": "01/07/2026",
+    "vence": "02/07/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1584,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45028-26.txt"
+  },
+  {
+    "id": "45075-26",
+    "nro_aviso": "45075/26",
+    "edicion": "20260701",
+    "publicado_desde": "30/06/2026",
+    "vence": "01/07/2026",
+    "rubro": "LOCACIONES",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1179,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45075-26.txt"
+  },
+  {
+    "id": "45271-26",
+    "nro_aviso": "45271/26",
+    "edicion": "20260701",
+    "publicado_desde": "30/06/2026",
+    "vence": "01/07/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 786,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45271-26.txt"
+  },
+  {
+    "id": "45272-26",
+    "nro_aviso": "45272/26",
+    "edicion": "20260701",
+    "publicado_desde": "30/06/2026",
+    "vence": "01/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1022,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45272-26.txt"
+  },
+  {
+    "id": "45294-26",
+    "nro_aviso": "45294/26",
+    "edicion": "20260701",
+    "publicado_desde": "30/06/2026",
+    "vence": "01/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 842,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45294-26.txt"
+  },
+  {
+    "id": "45297-26",
+    "nro_aviso": "45297/26",
+    "edicion": "20260701",
+    "publicado_desde": "30/06/2026",
+    "vence": "01/07/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1115,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45297-26.txt"
+  },
+  {
+    "id": "45301-26",
+    "nro_aviso": "45301/26",
+    "edicion": "20260701",
+    "publicado_desde": "30/06/2026",
+    "vence": "02/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 806,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45301-26.txt"
+  },
+  {
+    "id": "45306-26",
+    "nro_aviso": "45306/26",
+    "edicion": "20260701",
+    "publicado_desde": "30/06/2026",
+    "vence": "01/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 989,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45306-26.txt"
+  },
+  {
+    "id": "45307-26",
+    "nro_aviso": "45307/26",
+    "edicion": "20260701",
+    "publicado_desde": "30/06/2026",
+    "vence": "01/07/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1284,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45307-26.txt"
+  },
+  {
+    "id": "45399-26",
+    "nro_aviso": "45399/26",
+    "edicion": "20260701",
+    "publicado_desde": "30/06/2026",
+    "vence": "01/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 888,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45399-26.txt"
+  },
+  {
+    "id": "45423-26",
+    "nro_aviso": "45423/26",
+    "edicion": "20260701",
+    "publicado_desde": "30/06/2026",
+    "vence": "01/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1066,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45423-26.txt"
+  },
+  {
+    "id": "45559-26",
+    "nro_aviso": "45559/26",
+    "edicion": "20260701",
+    "publicado_desde": "01/07/2026",
+    "vence": "03/07/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 880,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45559-26.txt"
+  },
+  {
+    "id": "45560-26",
+    "nro_aviso": "45560/26",
+    "edicion": "20260701",
+    "publicado_desde": "01/07/2026",
+    "vence": "01/07/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 774,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45560-26.txt"
+  },
+  {
+    "id": "45561-26",
+    "nro_aviso": "45561/26",
+    "edicion": "20260701",
+    "publicado_desde": "01/07/2026",
+    "vence": "02/07/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1199,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45561-26.txt"
+  },
+  {
+    "id": "45562-26",
+    "nro_aviso": "45562/26",
+    "edicion": "20260701",
+    "publicado_desde": "01/07/2026",
+    "vence": "01/07/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1652,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45562-26.txt"
+  },
+  {
+    "id": "45563-26",
+    "nro_aviso": "45563/26",
+    "edicion": "20260701",
+    "publicado_desde": "01/07/2026",
+    "vence": "01/07/2026",
+    "rubro": "ADJUDICACIONES",
+    "tipo": "adjudicacion",
+    "formato": "comprar",
+    "caracteres": 1442,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45563-26.txt"
+  },
+  {
+    "id": "45564-26",
+    "nro_aviso": "45564/26",
+    "edicion": "20260701",
+    "publicado_desde": "01/07/2026",
+    "vence": "02/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 547,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45564-26.txt"
+  },
+  {
+    "id": "45572-26",
+    "nro_aviso": "45572/26",
+    "edicion": "20260701",
+    "publicado_desde": "01/07/2026",
+    "vence": "02/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1164,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45572-26.txt"
+  },
+  {
+    "id": "45736-26",
+    "nro_aviso": "45736/26",
+    "edicion": "20260701",
+    "publicado_desde": "01/07/2026",
+    "vence": "01/07/2026",
+    "rubro": "ADJUDICACIONES",
+    "tipo": "adjudicacion",
+    "formato": "comprar",
+    "caracteres": 1008,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45736-26.txt"
+  },
+  {
+    "id": "45740-26",
+    "nro_aviso": "45740/26",
+    "edicion": "20260701",
+    "publicado_desde": "01/07/2026",
+    "vence": "01/07/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1930,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45740-26.txt"
+  },
+  {
+    "id": "45743-26",
+    "nro_aviso": "45743/26",
+    "edicion": "20260701",
+    "publicado_desde": "01/07/2026",
+    "vence": "01/07/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 437,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45743-26.txt"
+  },
+  {
+    "id": "45754-26",
+    "nro_aviso": "45754/26",
+    "edicion": "20260701",
+    "publicado_desde": "01/07/2026",
+    "vence": "02/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 817,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45754-26.txt"
+  },
+  {
+    "id": "45756-26",
+    "nro_aviso": "45756/26",
+    "edicion": "20260701",
+    "publicado_desde": "01/07/2026",
+    "vence": "01/07/2026",
+    "rubro": "ADJUDICACIONES",
+    "tipo": "adjudicacion",
+    "formato": "libre",
+    "caracteres": 2015,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45756-26.txt"
+  },
+  {
+    "id": "45757-26",
+    "nro_aviso": "45757/26",
+    "edicion": "20260701",
+    "publicado_desde": "01/07/2026",
+    "vence": "02/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1098,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45757-26.txt"
+  },
+  {
+    "id": "45758-26",
+    "nro_aviso": "45758/26",
+    "edicion": "20260701",
+    "publicado_desde": "01/07/2026",
+    "vence": "01/07/2026",
+    "rubro": "PREADJUDICACIONES",
+    "tipo": "preadjudicacion",
+    "formato": "libre",
+    "caracteres": 1196,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45758-26.txt"
+  },
+  {
+    "id": "45759-26",
+    "nro_aviso": "45759/26",
+    "edicion": "20260701",
+    "publicado_desde": "01/07/2026",
+    "vence": "02/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 640,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45759-26.txt"
+  },
+  {
+    "id": "45790-26",
+    "nro_aviso": "45790/26",
+    "edicion": "20260701",
+    "publicado_desde": "01/07/2026",
+    "vence": "02/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1172,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45790-26.txt"
+  },
+  {
+    "id": "45791-26",
+    "nro_aviso": "45791/26",
+    "edicion": "20260701",
+    "publicado_desde": "01/07/2026",
+    "vence": "02/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 794,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45791-26.txt"
+  },
+  {
+    "id": "45792-26",
+    "nro_aviso": "45792/26",
+    "edicion": "20260701",
+    "publicado_desde": "01/07/2026",
+    "vence": "02/07/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 2274,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45792-26.txt"
+  },
+  {
+    "id": "45812-26",
+    "nro_aviso": "45812/26",
+    "edicion": "20260701",
+    "publicado_desde": "01/07/2026",
+    "vence": "02/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1316,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45812-26.txt"
+  },
+  {
+    "id": "45832-26",
+    "nro_aviso": "45832/26",
+    "edicion": "20260701",
+    "publicado_desde": "01/07/2026",
+    "vence": "01/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 687,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45832-26.txt"
+  },
+  {
+    "id": "45864-26",
+    "nro_aviso": "45864/26",
+    "edicion": "20260701",
+    "publicado_desde": "01/07/2026",
+    "vence": "03/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 693,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45864-26.txt"
+  },
+  {
+    "id": "45870-26",
+    "nro_aviso": "45870/26",
+    "edicion": "20260701",
+    "publicado_desde": "01/07/2026",
+    "vence": "16/07/2026",
+    "rubro": "VENTAS Y OFRECIMIENTOS DEL ESTADO",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1299,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45870-26.txt"
+  },
+  {
+    "id": "45885-26",
+    "nro_aviso": "45885/26",
+    "edicion": "20260701",
+    "publicado_desde": "01/07/2026",
+    "vence": "02/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 425,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45885-26.txt"
+  },
+  {
+    "id": "45889-26",
+    "nro_aviso": "45889/26",
+    "edicion": "20260701",
+    "publicado_desde": "01/07/2026",
+    "vence": "02/07/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1109,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45889-26.txt"
+  },
+  {
+    "id": "45894-26",
+    "nro_aviso": "45894/26",
+    "edicion": "20260701",
+    "publicado_desde": "01/07/2026",
+    "vence": "01/07/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1264,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45894-26.txt"
+  },
+  {
+    "id": "45897-26",
+    "nro_aviso": "45897/26",
+    "edicion": "20260701",
+    "publicado_desde": "01/07/2026",
+    "vence": "01/07/2026",
+    "rubro": "ADJUDICACIONES",
+    "tipo": "adjudicacion",
+    "formato": "libre",
+    "caracteres": 978,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45897-26.txt"
+  },
+  {
+    "id": "45915-26",
+    "nro_aviso": "45915/26",
+    "edicion": "20260701",
+    "publicado_desde": "01/07/2026",
+    "vence": "03/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 640,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45915-26.txt"
+  },
+  {
+    "id": "45939-26",
+    "nro_aviso": "45939/26",
+    "edicion": "20260701",
+    "publicado_desde": "01/07/2026",
+    "vence": "01/07/2026",
+    "rubro": "VENTAS Y OFRECIMIENTOS DEL ESTADO",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 2033,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45939-26.txt"
+  },
+  {
+    "id": "45942-26",
+    "nro_aviso": "45942/26",
+    "edicion": "20260701",
+    "publicado_desde": "01/07/2026",
+    "vence": "01/07/2026",
+    "rubro": "ADJUDICACIONES",
+    "tipo": "adjudicacion",
+    "formato": "libre",
+    "caracteres": 453,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45942-26.txt"
+  },
+  {
+    "id": "45992-26",
+    "nro_aviso": "45992/26",
+    "edicion": "20260701",
+    "publicado_desde": "01/07/2026",
+    "vence": "01/07/2026",
+    "rubro": "ADJUDICACIONES",
+    "tipo": "adjudicacion",
+    "formato": "comprar",
+    "caracteres": 592,
+    "ediciones": [
+      "20260701"
+    ],
+    "apariciones": 1,
+    "txt": "45992-26.txt"
+  },
+  {
+    "id": "46743-26",
+    "nro_aviso": "46743/26",
+    "edicion": "20260720",
+    "publicado_desde": "03/07/2026",
+    "vence": "20/07/2026",
+    "rubro": "OBRAS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1871,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "46743-26.txt"
+  },
+  {
+    "id": "47463-26",
+    "nro_aviso": "47463/26",
+    "edicion": "20260720",
+    "publicado_desde": "20/07/2026",
+    "vence": "07/08/2026",
+    "rubro": "OBRAS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 741,
+    "ediciones": [
+      "20260720",
+      "20260803"
+    ],
+    "apariciones": 2,
+    "txt": "47463-26.txt"
+  },
+  {
+    "id": "48226-26",
+    "nro_aviso": "48226/26",
+    "edicion": "20260720",
+    "publicado_desde": "14/07/2026",
+    "vence": "23/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1917,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "48226-26.txt"
+  },
+  {
+    "id": "48358-26",
+    "nro_aviso": "48358/26",
+    "edicion": "20260720",
+    "publicado_desde": "13/07/2026",
+    "vence": "22/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1555,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "48358-26.txt"
+  },
+  {
+    "id": "49075-26",
+    "nro_aviso": "49075/26",
+    "edicion": "20260720",
+    "publicado_desde": "15/07/2026",
+    "vence": "21/07/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 768,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "49075-26.txt"
+  },
+  {
+    "id": "49289-26",
+    "nro_aviso": "49289/26",
+    "edicion": "20260720",
+    "publicado_desde": "16/07/2026",
+    "vence": "05/08/2026",
+    "rubro": "OBRAS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 2582,
+    "ediciones": [
+      "20260720",
+      "20260803"
+    ],
+    "apariciones": 2,
+    "txt": "49289-26.txt"
+  },
+  {
+    "id": "49356-26",
+    "nro_aviso": "49356/26",
+    "edicion": "20260720",
+    "publicado_desde": "17/07/2026",
+    "vence": "20/07/2026",
+    "rubro": "LOCACIONES",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 537,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "49356-26.txt"
+  },
+  {
+    "id": "49954-26",
+    "nro_aviso": "49954/26",
+    "edicion": "20260720",
+    "publicado_desde": "17/07/2026",
+    "vence": "20/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1418,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "49954-26.txt"
+  },
+  {
+    "id": "49959-26",
+    "nro_aviso": "49959/26",
+    "edicion": "20260720",
+    "publicado_desde": "17/07/2026",
+    "vence": "20/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 714,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "49959-26.txt"
+  },
+  {
+    "id": "49964-26",
+    "nro_aviso": "49964/26",
+    "edicion": "20260720",
+    "publicado_desde": "17/07/2026",
+    "vence": "20/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1175,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "49964-26.txt"
+  },
+  {
+    "id": "49968-26",
+    "nro_aviso": "49968/26",
+    "edicion": "20260720",
+    "publicado_desde": "17/07/2026",
+    "vence": "20/07/2026",
+    "rubro": "LOCACIONES",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 835,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "49968-26.txt"
+  },
+  {
+    "id": "50009-26",
+    "nro_aviso": "50009/26",
+    "edicion": "20260720",
+    "publicado_desde": "17/07/2026",
+    "vence": "20/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1149,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50009-26.txt"
+  },
+  {
+    "id": "50022-26",
+    "nro_aviso": "50022/26",
+    "edicion": "20260720",
+    "publicado_desde": "17/07/2026",
+    "vence": "20/07/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1300,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50022-26.txt"
+  },
+  {
+    "id": "50030-26",
+    "nro_aviso": "50030/26",
+    "edicion": "20260720",
+    "publicado_desde": "17/07/2026",
+    "vence": "20/07/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1170,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50030-26.txt"
+  },
+  {
+    "id": "50053-26",
+    "nro_aviso": "50053/26",
+    "edicion": "20260720",
+    "publicado_desde": "17/07/2026",
+    "vence": "20/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1086,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50053-26.txt"
+  },
+  {
+    "id": "50054-26",
+    "nro_aviso": "50054/26",
+    "edicion": "20260720",
+    "publicado_desde": "17/07/2026",
+    "vence": "20/07/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1160,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50054-26.txt"
+  },
+  {
+    "id": "50075-26",
+    "nro_aviso": "50075/26",
+    "edicion": "20260720",
+    "publicado_desde": "20/07/2026",
+    "vence": "21/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 853,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50075-26.txt"
+  },
+  {
+    "id": "50077-26",
+    "nro_aviso": "50077/26",
+    "edicion": "20260720",
+    "publicado_desde": "17/07/2026",
+    "vence": "20/07/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1162,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50077-26.txt"
+  },
+  {
+    "id": "50078-26",
+    "nro_aviso": "50078/26",
+    "edicion": "20260720",
+    "publicado_desde": "17/07/2026",
+    "vence": "20/07/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1164,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50078-26.txt"
+  },
+  {
+    "id": "50080-26",
+    "nro_aviso": "50080/26",
+    "edicion": "20260720",
+    "publicado_desde": "17/07/2026",
+    "vence": "20/07/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1071,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50080-26.txt"
+  },
+  {
+    "id": "50082-26",
+    "nro_aviso": "50082/26",
+    "edicion": "20260720",
+    "publicado_desde": "20/07/2026",
+    "vence": "21/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1180,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50082-26.txt"
+  },
+  {
+    "id": "50092-26",
+    "nro_aviso": "50092/26",
+    "edicion": "20260720",
+    "publicado_desde": "17/07/2026",
+    "vence": "20/07/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1106,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50092-26.txt"
+  },
+  {
+    "id": "50122-26",
+    "nro_aviso": "50122/26",
+    "edicion": "20260720",
+    "publicado_desde": "17/07/2026",
+    "vence": "20/07/2026",
+    "rubro": "VENTAS Y OFRECIMIENTOS DEL ESTADO",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1070,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50122-26.txt"
+  },
+  {
+    "id": "50162-26",
+    "nro_aviso": "50162/26",
+    "edicion": "20260720",
+    "publicado_desde": "17/07/2026",
+    "vence": "20/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1158,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50162-26.txt"
+  },
+  {
+    "id": "50232-26",
+    "nro_aviso": "50232/26",
+    "edicion": "20260720",
+    "publicado_desde": "20/07/2026",
+    "vence": "20/07/2026",
+    "rubro": "PREADJUDICACIONES",
+    "tipo": "preadjudicacion",
+    "formato": "libre",
+    "caracteres": 1382,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50232-26.txt"
+  },
+  {
+    "id": "50234-26",
+    "nro_aviso": "50234/26",
+    "edicion": "20260720",
+    "publicado_desde": "20/07/2026",
+    "vence": "20/07/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 565,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50234-26.txt"
+  },
+  {
+    "id": "50235-26",
+    "nro_aviso": "50235/26",
+    "edicion": "20260720",
+    "publicado_desde": "20/07/2026",
+    "vence": "20/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1839,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50235-26.txt"
+  },
+  {
+    "id": "50239-26",
+    "nro_aviso": "50239/26",
+    "edicion": "20260720",
+    "publicado_desde": "20/07/2026",
+    "vence": "20/07/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 849,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50239-26.txt"
+  },
+  {
+    "id": "50242-26",
+    "nro_aviso": "50242/26",
+    "edicion": "20260720",
+    "publicado_desde": "20/07/2026",
+    "vence": "21/07/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1648,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50242-26.txt"
+  },
+  {
+    "id": "50357-26",
+    "nro_aviso": "50357/26",
+    "edicion": "20260720",
+    "publicado_desde": "20/07/2026",
+    "vence": "21/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1102,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50357-26.txt"
+  },
+  {
+    "id": "50366-26",
+    "nro_aviso": "50366/26",
+    "edicion": "20260720",
+    "publicado_desde": "20/07/2026",
+    "vence": "21/07/2026",
+    "rubro": "LOCACIONES",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 588,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50366-26.txt"
+  },
+  {
+    "id": "50367-26",
+    "nro_aviso": "50367/26",
+    "edicion": "20260720",
+    "publicado_desde": "20/07/2026",
+    "vence": "21/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 743,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50367-26.txt"
+  },
+  {
+    "id": "50368-26",
+    "nro_aviso": "50368/26",
+    "edicion": "20260720",
+    "publicado_desde": "20/07/2026",
+    "vence": "21/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1187,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50368-26.txt"
+  },
+  {
+    "id": "50369-26",
+    "nro_aviso": "50369/26",
+    "edicion": "20260720",
+    "publicado_desde": "20/07/2026",
+    "vence": "21/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1074,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50369-26.txt"
+  },
+  {
+    "id": "50370-26",
+    "nro_aviso": "50370/26",
+    "edicion": "20260720",
+    "publicado_desde": "20/07/2026",
+    "vence": "21/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1079,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50370-26.txt"
+  },
+  {
+    "id": "50371-26",
+    "nro_aviso": "50371/26",
+    "edicion": "20260720",
+    "publicado_desde": "20/07/2026",
+    "vence": "21/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1078,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50371-26.txt"
+  },
+  {
+    "id": "50399-26",
+    "nro_aviso": "50399/26",
+    "edicion": "20260720",
+    "publicado_desde": "20/07/2026",
+    "vence": "21/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1109,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50399-26.txt"
+  },
+  {
+    "id": "50400-26",
+    "nro_aviso": "50400/26",
+    "edicion": "20260720",
+    "publicado_desde": "20/07/2026",
+    "vence": "21/07/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1225,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50400-26.txt"
+  },
+  {
+    "id": "50402-26",
+    "nro_aviso": "50402/26",
+    "edicion": "20260720",
+    "publicado_desde": "20/07/2026",
+    "vence": "20/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 795,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50402-26.txt"
+  },
+  {
+    "id": "50403-26",
+    "nro_aviso": "50403/26",
+    "edicion": "20260720",
+    "publicado_desde": "20/07/2026",
+    "vence": "21/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1112,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50403-26.txt"
+  },
+  {
+    "id": "50404-26",
+    "nro_aviso": "50404/26",
+    "edicion": "20260720",
+    "publicado_desde": "20/07/2026",
+    "vence": "21/07/2026",
+    "rubro": "ADJUDICACIONES",
+    "tipo": "adjudicacion",
+    "formato": "libre",
+    "caracteres": 486,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50404-26.txt"
+  },
+  {
+    "id": "50405-26",
+    "nro_aviso": "50405/26",
+    "edicion": "20260720",
+    "publicado_desde": "20/07/2026",
+    "vence": "21/07/2026",
+    "rubro": "ADJUDICACIONES",
+    "tipo": "adjudicacion",
+    "formato": "libre",
+    "caracteres": 755,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50405-26.txt"
+  },
+  {
+    "id": "50407-26",
+    "nro_aviso": "50407/26",
+    "edicion": "20260720",
+    "publicado_desde": "20/07/2026",
+    "vence": "21/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1094,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50407-26.txt"
+  },
+  {
+    "id": "50440-26",
+    "nro_aviso": "50440/26",
+    "edicion": "20260720",
+    "publicado_desde": "20/07/2026",
+    "vence": "21/07/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 999,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50440-26.txt"
+  },
+  {
+    "id": "50486-26",
+    "nro_aviso": "50486/26",
+    "edicion": "20260720",
+    "publicado_desde": "20/07/2026",
+    "vence": "21/07/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1094,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50486-26.txt"
+  },
+  {
+    "id": "50488-26",
+    "nro_aviso": "50488/26",
+    "edicion": "20260720",
+    "publicado_desde": "20/07/2026",
+    "vence": "20/07/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 989,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50488-26.txt"
+  },
+  {
+    "id": "50490-26",
+    "nro_aviso": "50490/26",
+    "edicion": "20260720",
+    "publicado_desde": "20/07/2026",
+    "vence": "20/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 2269,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50490-26.txt"
+  },
+  {
+    "id": "50491-26",
+    "nro_aviso": "50491/26",
+    "edicion": "20260720",
+    "publicado_desde": "20/07/2026",
+    "vence": "21/07/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1117,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50491-26.txt"
+  },
+  {
+    "id": "50493-26",
+    "nro_aviso": "50493/26",
+    "edicion": "20260720",
+    "publicado_desde": "20/07/2026",
+    "vence": "21/07/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1346,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50493-26.txt"
+  },
+  {
+    "id": "50495-26",
+    "nro_aviso": "50495/26",
+    "edicion": "20260720",
+    "publicado_desde": "20/07/2026",
+    "vence": "21/07/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1396,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50495-26.txt"
+  },
+  {
+    "id": "50499-26",
+    "nro_aviso": "50499/26",
+    "edicion": "20260720",
+    "publicado_desde": "20/07/2026",
+    "vence": "21/07/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 737,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50499-26.txt"
+  },
+  {
+    "id": "50511-26",
+    "nro_aviso": "50511/26",
+    "edicion": "20260720",
+    "publicado_desde": "20/07/2026",
+    "vence": "21/07/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 780,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50511-26.txt"
+  },
+  {
+    "id": "50515-26",
+    "nro_aviso": "50515/26",
+    "edicion": "20260720",
+    "publicado_desde": "20/07/2026",
+    "vence": "21/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1114,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50515-26.txt"
+  },
+  {
+    "id": "50517-26",
+    "nro_aviso": "50517/26",
+    "edicion": "20260720",
+    "publicado_desde": "20/07/2026",
+    "vence": "21/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1116,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50517-26.txt"
+  },
+  {
+    "id": "50523-26",
+    "nro_aviso": "50523/26",
+    "edicion": "20260720",
+    "publicado_desde": "20/07/2026",
+    "vence": "21/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1131,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50523-26.txt"
+  },
+  {
+    "id": "50565-26",
+    "nro_aviso": "50565/26",
+    "edicion": "20260720",
+    "publicado_desde": "20/07/2026",
+    "vence": "21/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1134,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50565-26.txt"
+  },
+  {
+    "id": "50566-26",
+    "nro_aviso": "50566/26",
+    "edicion": "20260720",
+    "publicado_desde": "20/07/2026",
+    "vence": "21/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1123,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50566-26.txt"
+  },
+  {
+    "id": "50568-26",
+    "nro_aviso": "50568/26",
+    "edicion": "20260720",
+    "publicado_desde": "20/07/2026",
+    "vence": "21/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1119,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50568-26.txt"
+  },
+  {
+    "id": "50579-26",
+    "nro_aviso": "50579/26",
+    "edicion": "20260720",
+    "publicado_desde": "20/07/2026",
+    "vence": "21/07/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1110,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50579-26.txt"
+  },
+  {
+    "id": "50599-26",
+    "nro_aviso": "50599/26",
+    "edicion": "20260720",
+    "publicado_desde": "20/07/2026",
+    "vence": "20/07/2026",
+    "rubro": "ADJUDICACIONES",
+    "tipo": "adjudicacion",
+    "formato": "comprar",
+    "caracteres": 678,
+    "ediciones": [
+      "20260720"
+    ],
+    "apariciones": 1,
+    "txt": "50599-26.txt"
+  },
+  {
+    "id": "50494-26",
+    "nro_aviso": "50494/26",
+    "edicion": "20260803",
+    "publicado_desde": "22/07/2026",
+    "vence": "11/08/2026",
+    "rubro": "OBRAS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 976,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "50494-26.txt"
+  },
+  {
+    "id": "51482-26",
+    "nro_aviso": "51482/26",
+    "edicion": "20260803",
+    "publicado_desde": "23/07/2026",
+    "vence": "03/08/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 788,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "51482-26.txt"
+  },
+  {
+    "id": "51554-26",
+    "nro_aviso": "51554/26",
+    "edicion": "20260803",
+    "publicado_desde": "23/07/2026",
+    "vence": "03/08/2026",
+    "rubro": "LOCACIONES",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1661,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "51554-26.txt"
+  },
+  {
+    "id": "52560-26",
+    "nro_aviso": "52560/26",
+    "edicion": "20260803",
+    "publicado_desde": "30/07/2026",
+    "vence": "04/08/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1224,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "52560-26.txt"
+  },
+  {
+    "id": "52572-26",
+    "nro_aviso": "52572/26",
+    "edicion": "20260803",
+    "publicado_desde": "30/07/2026",
+    "vence": "04/08/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1188,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "52572-26.txt"
+  },
+  {
+    "id": "52610-26",
+    "nro_aviso": "52610/26",
+    "edicion": "20260803",
+    "publicado_desde": "29/07/2026",
+    "vence": "04/08/2026",
+    "rubro": "OBRAS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 2503,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "52610-26.txt"
+  },
+  {
+    "id": "52677-26",
+    "nro_aviso": "52677/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "04/08/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1219,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "52677-26.txt"
+  },
+  {
+    "id": "52979-26",
+    "nro_aviso": "52979/26",
+    "edicion": "20260803",
+    "publicado_desde": "31/07/2026",
+    "vence": "03/08/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1202,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "52979-26.txt"
+  },
+  {
+    "id": "53000-26",
+    "nro_aviso": "53000/26",
+    "edicion": "20260803",
+    "publicado_desde": "31/07/2026",
+    "vence": "03/08/2026",
+    "rubro": "LOCACIONES",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1615,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53000-26.txt"
+  },
+  {
+    "id": "53039-26",
+    "nro_aviso": "53039/26",
+    "edicion": "20260803",
+    "publicado_desde": "31/07/2026",
+    "vence": "03/08/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1153,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53039-26.txt"
+  },
+  {
+    "id": "53047-26",
+    "nro_aviso": "53047/26",
+    "edicion": "20260803",
+    "publicado_desde": "31/07/2026",
+    "vence": "03/08/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1204,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53047-26.txt"
+  },
+  {
+    "id": "53153-26",
+    "nro_aviso": "53153/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "05/08/2026",
+    "rubro": "VENTAS Y OFRECIMIENTOS DEL ESTADO",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 2003,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53153-26.txt"
+  },
+  {
+    "id": "53175-26",
+    "nro_aviso": "53175/26",
+    "edicion": "20260803",
+    "publicado_desde": "31/07/2026",
+    "vence": "03/08/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1064,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53175-26.txt"
+  },
+  {
+    "id": "53176-26",
+    "nro_aviso": "53176/26",
+    "edicion": "20260803",
+    "publicado_desde": "31/07/2026",
+    "vence": "03/08/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1581,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53176-26.txt"
+  },
+  {
+    "id": "53195-26",
+    "nro_aviso": "53195/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "04/08/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 810,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53195-26.txt"
+  },
+  {
+    "id": "53237-26",
+    "nro_aviso": "53237/26",
+    "edicion": "20260803",
+    "publicado_desde": "31/07/2026",
+    "vence": "03/08/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1205,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53237-26.txt"
+  },
+  {
+    "id": "53239-26",
+    "nro_aviso": "53239/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "04/08/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 3292,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53239-26.txt"
+  },
+  {
+    "id": "53241-26",
+    "nro_aviso": "53241/26",
+    "edicion": "20260803",
+    "publicado_desde": "31/07/2026",
+    "vence": "03/08/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1118,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53241-26.txt"
+  },
+  {
+    "id": "53246-26",
+    "nro_aviso": "53246/26",
+    "edicion": "20260803",
+    "publicado_desde": "31/07/2026",
+    "vence": "03/08/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1119,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53246-26.txt"
+  },
+  {
+    "id": "53249-26",
+    "nro_aviso": "53249/26",
+    "edicion": "20260803",
+    "publicado_desde": "31/07/2026",
+    "vence": "03/08/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1134,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53249-26.txt"
+  },
+  {
+    "id": "53252-26",
+    "nro_aviso": "53252/26",
+    "edicion": "20260803",
+    "publicado_desde": "31/07/2026",
+    "vence": "03/08/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1098,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53252-26.txt"
+  },
+  {
+    "id": "53253-26",
+    "nro_aviso": "53253/26",
+    "edicion": "20260803",
+    "publicado_desde": "31/07/2026",
+    "vence": "03/08/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1116,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53253-26.txt"
+  },
+  {
+    "id": "53254-26",
+    "nro_aviso": "53254/26",
+    "edicion": "20260803",
+    "publicado_desde": "31/07/2026",
+    "vence": "03/08/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1140,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53254-26.txt"
+  },
+  {
+    "id": "53267-26",
+    "nro_aviso": "53267/26",
+    "edicion": "20260803",
+    "publicado_desde": "31/07/2026",
+    "vence": "03/08/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1118,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53267-26.txt"
+  },
+  {
+    "id": "53271-26",
+    "nro_aviso": "53271/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "03/08/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 2663,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53271-26.txt"
+  },
+  {
+    "id": "53312-26",
+    "nro_aviso": "53312/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "04/08/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1745,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53312-26.txt"
+  },
+  {
+    "id": "53315-26",
+    "nro_aviso": "53315/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "04/08/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1143,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53315-26.txt"
+  },
+  {
+    "id": "53320-26",
+    "nro_aviso": "53320/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "03/08/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1774,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53320-26.txt"
+  },
+  {
+    "id": "53322-26",
+    "nro_aviso": "53322/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "03/08/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1772,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53322-26.txt"
+  },
+  {
+    "id": "53329-26",
+    "nro_aviso": "53329/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "03/08/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1772,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53329-26.txt"
+  },
+  {
+    "id": "53336-26",
+    "nro_aviso": "53336/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "03/08/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 849,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53336-26.txt"
+  },
+  {
+    "id": "53457-26",
+    "nro_aviso": "53457/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "03/08/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1890,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53457-26.txt"
+  },
+  {
+    "id": "53462-26",
+    "nro_aviso": "53462/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "04/08/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1440,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53462-26.txt"
+  },
+  {
+    "id": "53464-26",
+    "nro_aviso": "53464/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "04/08/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 2202,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53464-26.txt"
+  },
+  {
+    "id": "53465-26",
+    "nro_aviso": "53465/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "14/08/2026",
+    "rubro": "OBRAS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1610,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53465-26.txt"
+  },
+  {
+    "id": "53474-26",
+    "nro_aviso": "53474/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "04/08/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1149,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53474-26.txt"
+  },
+  {
+    "id": "53487-26",
+    "nro_aviso": "53487/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "03/08/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1807,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53487-26.txt"
+  },
+  {
+    "id": "53488-26",
+    "nro_aviso": "53488/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "03/08/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 1830,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53488-26.txt"
+  },
+  {
+    "id": "53489-26",
+    "nro_aviso": "53489/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "04/08/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1053,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53489-26.txt"
+  },
+  {
+    "id": "53497-26",
+    "nro_aviso": "53497/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "04/08/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1155,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53497-26.txt"
+  },
+  {
+    "id": "53509-26",
+    "nro_aviso": "53509/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "04/08/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1118,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53509-26.txt"
+  },
+  {
+    "id": "53510-26",
+    "nro_aviso": "53510/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "04/08/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1118,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53510-26.txt"
+  },
+  {
+    "id": "53517-26",
+    "nro_aviso": "53517/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "04/08/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 480,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53517-26.txt"
+  },
+  {
+    "id": "53528-26",
+    "nro_aviso": "53528/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "04/08/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1135,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53528-26.txt"
+  },
+  {
+    "id": "53530-26",
+    "nro_aviso": "53530/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "03/08/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1105,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53530-26.txt"
+  },
+  {
+    "id": "53531-26",
+    "nro_aviso": "53531/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "03/08/2026",
+    "rubro": "ADJUDICACIONES",
+    "tipo": "adjudicacion",
+    "formato": "comprar",
+    "caracteres": 606,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53531-26.txt"
+  },
+  {
+    "id": "53535-26",
+    "nro_aviso": "53535/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "04/08/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1660,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53535-26.txt"
+  },
+  {
+    "id": "53536-26",
+    "nro_aviso": "53536/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "04/08/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1102,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53536-26.txt"
+  },
+  {
+    "id": "53537-26",
+    "nro_aviso": "53537/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "04/08/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1113,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53537-26.txt"
+  },
+  {
+    "id": "53538-26",
+    "nro_aviso": "53538/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "07/08/2026",
+    "rubro": "OBRAS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 2112,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53538-26.txt"
+  },
+  {
+    "id": "53539-26",
+    "nro_aviso": "53539/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "04/08/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1078,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53539-26.txt"
+  },
+  {
+    "id": "53540-26",
+    "nro_aviso": "53540/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "04/08/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1082,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53540-26.txt"
+  },
+  {
+    "id": "53541-26",
+    "nro_aviso": "53541/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "04/08/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1101,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53541-26.txt"
+  },
+  {
+    "id": "53551-26",
+    "nro_aviso": "53551/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "04/08/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1137,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53551-26.txt"
+  },
+  {
+    "id": "53552-26",
+    "nro_aviso": "53552/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "04/08/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1092,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53552-26.txt"
+  },
+  {
+    "id": "53553-26",
+    "nro_aviso": "53553/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "04/08/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1080,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53553-26.txt"
+  },
+  {
+    "id": "53554-26",
+    "nro_aviso": "53554/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "04/08/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1081,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53554-26.txt"
+  },
+  {
+    "id": "53555-26",
+    "nro_aviso": "53555/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "04/08/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1085,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53555-26.txt"
+  },
+  {
+    "id": "53556-26",
+    "nro_aviso": "53556/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "04/08/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1093,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53556-26.txt"
+  },
+  {
+    "id": "53557-26",
+    "nro_aviso": "53557/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "04/08/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1079,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53557-26.txt"
+  },
+  {
+    "id": "53559-26",
+    "nro_aviso": "53559/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "04/08/2026",
+    "rubro": "SERVICIOS",
+    "tipo": "llamado",
+    "formato": "libre",
+    "caracteres": 534,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53559-26.txt"
+  },
+  {
+    "id": "53560-26",
+    "nro_aviso": "53560/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "04/08/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1118,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53560-26.txt"
+  },
+  {
+    "id": "53561-26",
+    "nro_aviso": "53561/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "04/08/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1075,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53561-26.txt"
+  },
+  {
+    "id": "53565-26",
+    "nro_aviso": "53565/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "03/08/2026",
+    "rubro": "PREADJUDICACIONES",
+    "tipo": "preadjudicacion",
+    "formato": "libre",
+    "caracteres": 469,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53565-26.txt"
+  },
+  {
+    "id": "53587-26",
+    "nro_aviso": "53587/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "04/08/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1119,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53587-26.txt"
+  },
+  {
+    "id": "53593-26",
+    "nro_aviso": "53593/26",
+    "edicion": "20260803",
+    "publicado_desde": "03/08/2026",
+    "vence": "04/08/2026",
+    "rubro": "SUMINISTROS",
+    "tipo": "llamado",
+    "formato": "comprar",
+    "caracteres": 1116,
+    "ediciones": [
+      "20260803"
+    ],
+    "apariciones": 1,
+    "txt": "53593-26.txt"
+  }
+]

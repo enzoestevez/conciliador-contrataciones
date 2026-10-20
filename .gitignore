@@ -1,0 +1,16 @@
+.env
+.env.*
+*.key
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# El registro oficial se vuelve a bajar de datos.gob.ar: es pesado y publico.
+data/registro/*
+!data/registro/.gitkeep
+
+# Los avisos vienen del proyecto 01, que ya los versiona.
+data/entrada/avisos/
+
+.DS_Store
