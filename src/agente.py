@@ -80,6 +80,7 @@ MODELO = "gemini-3.5-flash-lite"       # conclusión del proyecto 01
 USD_IN, USD_OUT = 0.30, 2.50           # por millón de tokens, consultado 20/10/2026
 PRESUPUESTO = 1.00                     # USD
 TOKENS_EST = (800, 260)                # estimación para el control previo de gasto
+CORTE_EN_SECO = 3                      # errores seguidos sin ningún éxito -> abortar
 
 
 # --------------------------------------------------------------- permisos
@@ -198,12 +199,43 @@ def costo(tin: int, tout: int) -> float:
 # --------------------------------------------------------------- el agente
 
 
+# Errores que se arreglan solos esperando: cupo por minuto, modelo saturado,
+# conexion cortada. Los demas (clave invalida, modelo que no existe, esquema mal
+# formado) no mejoran con reintentar y cada reintento cuesta tiempo y plata.
+TRANSITORIOS = ("429", "RESOURCE_EXHAUSTED", "503", "UNAVAILABLE", "500", "INTERNAL",
+                "ConnectError", "ReadTimeout", "Timeout", "ConnectionError")
+ESPERAS = (5, 15, 40)
+
+
+def es_transitorio(error: str) -> bool:
+    return any(t.lower() in error.lower() for t in TRANSITORIOS)
+
+
+def extraer_con_reintentos(texto: str, verboso: bool = True) -> dict:
+    """extraer() con espera exponencial sobre los errores que se arreglan solos.
+
+    Sin esto, un solo 429 en una corrida de 115 casos pierde el caso. El cupo
+    gratuito de Google son 15 llamadas por minuto: a una llamada cada 2 o 3
+    segundos se toca, y tocarlo no es un error del sistema.
+    """
+    r = extraer(texto)
+    for i, espera in enumerate(ESPERAS, 1):
+        if not r["error"] or not es_transitorio(r["error"]):
+            return r
+        if verboso:
+            print(f"    transitorio ({r['error'][:60]}) · reintento {i}/{len(ESPERAS)} "
+                  f"en {espera}s", flush=True)
+        time.sleep(espera)
+        r = extraer(texto)
+    return r
+
+
 def procesar(a: dict, idx: dict, umbral: float) -> dict:
     """Un caso de punta a punta. Devuelve el registro de traza completo."""
     caso = {"aviso": a["id"], "edicion": a["_meta"]["edicion"], "formato": a["_meta"]["formato"],
             "momento": datetime.now(timezone.utc).isoformat(timespec="seconds")}
 
-    r = extraer(a["_texto"])
+    r = extraer_con_reintentos(a["_texto"])
     caso |= {"modelo": MODELO, "tokens_in": r["tokens_in"], "tokens_out": r["tokens_out"],
              "latencia_ms": r["ms"], "costo_usd": round(costo(r["tokens_in"], r["tokens_out"]), 6),
              "confianza_extraccion": r["datos"].get("confianza")}
@@ -250,8 +282,25 @@ def main() -> None:
     args = ap.parse_args()
 
     cargar_env()
+
+    # CONTROL PREVIO. Las dos fallas que rompen las N llamadas por igual —no hay
+    # clave, no esta el paquete— se chequean UNA vez, antes del bucle, y con el
+    # comando exacto para arreglarlas.
+    #
+    # La primera corrida real escribio cinco `error_extraccion` identicos por un
+    # paquete que faltaba. El agente se porto bien (gasto USD 0.0000, dejo la
+    # traza, no se colgo y la reanudacion no cuenta los errores como hechos),
+    # pero el bucle no tenia por que enterarse cinco veces de lo mismo: un error
+    # que afecta a todos los casos no es un error POR caso.
     if not os.environ.get("GOOGLE_API_KEY"):
-        sys.exit("Falta GOOGLE_API_KEY en .env")
+        sys.exit("Falta GOOGLE_API_KEY en .env — copiala de ../p01/.env")
+    try:
+        import google.genai  # noqa: F401
+    except ImportError:
+        sys.exit("Falta el paquete google-genai. Desde la raiz del proyecto:\n"
+                 "    python -m venv .venv\n"
+                 "    .venv\\Scripts\\python.exe -m pip install -r requirements.txt\n"
+                 "y volve a correr con .venv\\Scripts\\python.exe src\\agente.py")
 
     idx = comun.cargar_registro()
     meta = {r["id"]: r for r in json.loads((ENTRADA / "indice_p01.json").read_text(encoding="utf-8"))}
@@ -291,6 +340,8 @@ def main() -> None:
     cuenta: dict[str, int] = {}
     t0 = time.perf_counter()
     cortado = 0
+    exitos = errores_seguidos = 0
+    en_seco = None
 
     with traza.open("a", encoding="utf-8") as ft, auditoria.open("a", encoding="utf-8") as fa:
         for n, a in enumerate(pendientes, 1):
@@ -313,11 +364,30 @@ def main() -> None:
                                 ensure_ascii=False) + "\n")
             fa.flush()
 
+            # CORTE EN SECO. Si nada funciono todavia y ya fallaron varios
+            # seguidos, el problema no es de estos casos: es de la corrida. Un
+            # error que afecta a todos no es un error POR caso, y escribirlo 115
+            # veces no agrega informacion, solo ruido en la traza.
+            if caso["decision"] == "error_extraccion":
+                errores_seguidos += 1
+            else:
+                exitos += 1
+                errores_seguidos = 0
+            if exitos == 0 and errores_seguidos >= CORTE_EN_SECO:
+                en_seco = caso["motivo"]
+                cortado = len(pendientes) - n
+                break
+
             if n % 10 == 0 or n == len(pendientes):
                 seg = time.perf_counter() - t0
                 print(f"  {n}/{len(pendientes)}  {seg:.0f}s  USD {gastado:.4f}  {dict(sorted(cuenta.items()))}",
                       flush=True)
 
+    if en_seco:
+        print(f"\nCORTE EN SECO · {CORTE_EN_SECO} errores seguidos y ningun caso resuelto.")
+        print(f"  {en_seco}")
+        print("  No sigo: el problema es de la corrida, no de los casos. Arreglalo y volve")
+        print("  a correr el mismo comando — la traza no cuenta los errores como hechos.")
     print(f"\nGastado USD {gastado:.4f} de USD {args.presupuesto:.2f}")
     if cortado:
         print(f"Quedaron {cortado} casos sin procesar. Volvé a correr el mismo comando.")

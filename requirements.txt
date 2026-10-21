@@ -1,2 +1,12 @@
-# El verificador del cruce no necesita nada: solo la libreria estandar.
-# Las dependencias del agente se agregan cuando el cruce este confirmado.
+# El analisis (src/verificar_cruce.py, src/cruzar.py) y el informe no necesitan
+# nada: solo la libreria estandar. Se puede auditar el 34% verificable sin
+# instalar un paquete.
+#
+# El agente (src/agente.py) si necesita el cliente de Google, porque extrae con
+# modelo. Version fijada: una corrida de benchmark no se compara contra un
+# "latest" que cambia abajo de los pies.
+google-genai==2.20.0
+
+# El modelo (gemini-3.5-flash-lite) no se elige aca: es la conclusion medida
+# del proyecto 01, donde el modelo caro no justifico 5x de costo. Esta en
+# src/agente.py como MODELO, con el comentario al lado.
