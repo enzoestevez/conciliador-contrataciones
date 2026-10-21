@@ -243,7 +243,26 @@ def procesar(a: dict, idx: dict, umbral: float) -> dict:
     if r["error"]:
         return caso | {"decision": "error_extraccion", "motivo": r["error"]}
 
-    datos = r["datos"]
+    return decidir(caso, r["datos"], a["_meta"]["publicado_desde"], idx, umbral)
+
+
+def decidir(caso: dict, datos: dict, publicado_desde, idx: dict, umbral: float) -> dict:
+    """La parte DETERMINISTA del pipeline: llave, candidatos, confianza, comparacion.
+
+    Esta separada de la llamada al modelo a proposito, y la separacion se pago
+    sola la primera vez que la necesite.
+
+    `comun.n_fecha` tenia un bug: no parseaba `2026-06-08T09:00:00` (el formato
+    con segundos que devuelve el modelo), asi que `fecha_apertura` quedaba en
+    None y el informe reporto CERO discrepancias sobre 36 casos emparejados.
+    Arreglar el normalizador no requirio volver a llamar al modelo: la traza
+    guarda `extraido`, y `src/reprocesar.py` vuelve a correr ESTA funcion sobre
+    esas extracciones guardadas. Costo del reproceso: USD 0.00.
+
+    Regla general: la llamada al modelo es la parte cara y no reproducible; todo
+    lo de abajo es determinista y se puede volver a correr gratis. Conviene que
+    la frontera entre las dos este en una sola linea.
+    """
     caso["extraido"] = {c: datos.get(c) for c, _, _ in CAMPOS}
 
     k = comun.llave(datos.get("uoc"), datos.get("numero_procedimiento"))
@@ -257,7 +276,7 @@ def procesar(a: dict, idx: dict, umbral: float) -> dict:
         return caso | {"decision": "sin_registro",
                        "motivo": "la llave no existe en el registro: retraso de publicación o datos incompletos"}
 
-    fila, conf, señales = comun.elegir(datos, cands, a["_meta"]["publicado_desde"])
+    fila, conf, señales = comun.elegir(datos, cands, publicado_desde)
     caso |= {"proceso": fila["Numero_Proceso"], "candidatos": len(cands),
              "confianza_emparejamiento": conf, "señales": señales}
 

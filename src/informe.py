@@ -27,6 +27,7 @@ proyecto 01 es el oraculo del proyecto 02.
 
 from __future__ import annotations
 
+import argparse
 import json
 import statistics as st
 import sys
@@ -59,9 +60,16 @@ def pct(a: int, b: int) -> str:
 
 
 def main() -> None:
-    traza = leer(TRAZA)
+    ap = argparse.ArgumentParser(description="Informe del agente conciliador.")
+    ap.add_argument("--traza", default=str(TRAZA),
+                    help="por defecto reports/traza.jsonl; usá reports/traza-reproceso.jsonl "
+                         "para informar sobre una corrida reprocesada")
+    ap.add_argument("--salida", default=str(REPORTES / "agente.md"))
+    args = ap.parse_args()
+
+    traza = leer(Path(args.traza))
     if not traza:
-        sys.exit(f"No hay traza en {TRAZA}. Corré src/agente.py primero.")
+        sys.exit(f"No hay traza en {args.traza}. Corré src/agente.py primero.")
 
     # Una línea por aviso: la última gana (el agente es reanudable).
     casos = {c["aviso"]: c for c in traza}
@@ -72,6 +80,12 @@ def main() -> None:
 
     L: list[str] = ["# Informe del agente conciliador\n"]
     L.append(f"{n} avisos procesados · modelo `{casos[0].get('modelo','?')}`\n")
+    rp = casos[0].get("reproceso")
+    if isinstance(rp, dict):
+        L.append(f"> Corrida **reprocesada** desde `reports/traza.jsonl` el {rp['cuando'][:10]} "
+                 f"con el código del commit `{rp['commit']}`, umbral {rp['umbral']}. "
+                 f"Las extracciones son las de la corrida original: no se volvió a llamar al "
+                 f"modelo y el reproceso costó USD 0.00. Ver `src/reprocesar.py`.\n")
 
     # ------------------------------------------------------------ decisiones
     L.append("## Qué decidió\n")
@@ -177,9 +191,9 @@ def main() -> None:
                      f"**mismo proceso del registro en {mismo}** ({pct(mismo, len(pares))}).\n")
 
     L.append("---\n")
-    L.append("Generado por `src/informe.py` desde `reports/traza.jsonl`.")
+    L.append(f"Generado por `src/informe.py` desde `{args.traza}`.")
 
-    salida = REPORTES / "agente.md"
+    salida = Path(args.salida)
     salida.write_text("\n".join(L), encoding="utf-8")
     print("\n".join(L[:40]))
     print(f"\n… escrito completo en reports/agente.md")
