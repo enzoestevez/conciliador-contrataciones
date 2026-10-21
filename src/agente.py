@@ -207,7 +207,37 @@ TRANSITORIOS = ("429", "RESOURCE_EXHAUSTED", "503", "UNAVAILABLE", "500", "INTER
 ESPERAS = (5, 15, 40)
 
 
+# LA ESPERA QUE PIDE EL PROVEEDOR, LEIDA DEL ERROR.
+# Google la dice textual: "Please retry in 9h21m26.597663521s". Ignorarla y
+# esperar 40 segundos no es optimismo, es quemar cupo: cada reintento cuenta
+# como pedido contra el limite que ya se agoto. En el proyecto 01, una corrida
+# con este bug gasto 244 reintentos para ganar UN documento.
+RX_ESPERA = re.compile(
+    r"retry\s+in\s+(?:(\d+)\s*h)?\s*(?:(\d+)\s*m)?\s*(?:([\d.]+)\s*s)?", re.I
+)
+ESPERA_MAXIMA = 120.0  # segundos. Mas que esto no es transitorio, es otro dia.
+
+
+def espera_pedida(error: str | None) -> float | None:
+    """Segundos que el proveedor pide esperar, o None si no lo dice."""
+    if not error:
+        return None
+    m = RX_ESPERA.search(error)
+    if not m or not any(m.groups()):
+        return None
+    h, mi, se = m.groups()
+    return int(h or 0) * 3600 + int(mi or 0) * 60 + float(se or 0)
+
+
 def es_transitorio(error: str) -> bool:
+    """¿Se arregla esperando un rato corto?
+
+    Un 429 por cupo POR MINUTO si. Un 429 por cupo POR DIA no: pide horas, y
+    reintentarlo falla seguro ademas de gastar un pedido del cupo agotado.
+    """
+    pedida = espera_pedida(error)
+    if pedida is not None and pedida > ESPERA_MAXIMA:
+        return False
     return any(t.lower() in error.lower() for t in TRANSITORIOS)
 
 
@@ -382,6 +412,15 @@ def main() -> None:
                                   "confianza_emparejamiento", "discrepancias")},
                                 ensure_ascii=False) + "\n")
             fa.flush()
+
+            # PARED DE CUOTA: cortar la corrida entera, no seguir caso por caso.
+            # Distinto del corte en seco: aca puede haber habido exitos antes.
+            pedida = espera_pedida(caso.get("motivo") or "")
+            if pedida is not None and pedida > ESPERA_MAXIMA:
+                en_seco = (f"pared de cuota · el proveedor pide esperar "
+                           f"{pedida/3600:.1f} h · {str(caso.get('motivo'))[:120]}")
+                cortado = len(pendientes) - n + 1
+                break
 
             # CORTE EN SECO. Si nada funciono todavia y ya fallaron varios
             # seguidos, el problema no es de estos casos: es de la corrida. Un
