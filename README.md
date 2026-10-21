@@ -2,16 +2,18 @@
 
 > **Estado:** `completado · validado contra verdad de referencia humana`
 >
-> **El número:** de las licitaciones que el Estado argentino publica en el
-> Boletín Oficial, sólo el **43%** puede verificarse contra su propio registro
-> oficial. Y de las que sí: **una de cada cinco publica una fecha de apertura
-> que el registro ya movió** — siempre hacia adelante, nunca hacia atrás,
-> hasta 41 días — y **el 98% omite el monto estimado que el registro sí
-> publica**.
+> **Los dos números.** De los llamados que el Estado argentino publica en el
+> Boletín Oficial, **el 90% de los que tramitan por COMPR.AR se puede verificar
+> contra el registro oficial** — siempre que el registro los haya cargado. Y de
+> los verificados, **uno de cada seis publica una fecha de apertura distinta de
+> la del registro.**
 >
-> **Costo de auditar un aviso: USD 0,00074.** Un humano haciendo lo mismo
-> cuesta USD 0,058 y tarda 113 segundos (medido en el
+> **Costo de auditar un aviso: USD 0,00074.** Un humano haciendo lo mismo cuesta
+> USD 0,058 y tarda 113 segundos (medido en el
 > [proyecto 01](https://github.com/enzoestevez/eval-extraccion-licitaciones)).
+>
+> 267 llamados de 5 ediciones · 128.951 convocatorias del registro oficial ·
+> cero fallas de extracción.
 
 ---
 
@@ -48,8 +50,8 @@ Dos varas, ninguna producida por un modelo:
 - **El registro oficial del Estado** (128.951 convocatorias de COMPR.AR) es la
   vara del hallazgo. Es pública, está a escala y existe independientemente de
   este proyecto.
-- **El set etiquetado a mano del proyecto 01** (115 avisos, con techo del
-  experimento medido por doble ciego) es la vara del *sistema*. Permite medir
+- **El set de 115 avisos etiquetado a mano del proyecto 01**, con el techo del
+  experimento medido por doble ciego, es la vara del *sistema*. Permite medir
   cuánto se degrada el pipeline completo cuando el extractor se equivoca.
 
 **La verdad de referencia del proyecto 02 no costó una etiqueta nueva: el
@@ -78,10 +80,9 @@ se pudiera mover el poste después de ver el resultado:
 | 30–60% | va, declarando la cobertura |
 | < 30% | no hay cruce → plan B |
 
-Resultado: **43% del total etiquetado → el proyecto va, con la cobertura
-declarada.** El plan B (agente de estado temporal, apoyado en que el propio
-Boletín publica prórrogas y rectificaciones que corrigen avisos anteriores)
-quedó diseñado y sin usar.
+Resultado: **el proyecto va, con la cobertura declarada.** El plan B (agente de
+estado temporal, apoyado en que el propio Boletín publica prórrogas y
+rectificaciones que corrigen avisos anteriores) quedó diseñado y sin usar.
 
 **Un instrumento sin validar da un veredicto falso.** El primer cruce dio 9% y
 casi descartamos el proyecto. El error era del verificador, no de los datos: el
@@ -91,33 +92,50 @@ barra— y la expresión regular sólo aceptaba la forma sin barra, descartando 
 
 ---
 
-## Resultados
+## Resultados · corpus completo
 
-### Cuánto de lo que publica el Estado se puede verificar
-
-`python src/cruzar.py`, sobre los 115 avisos con etiqueta manual:
+`python src/agente.py` sobre los **267 llamados** del corpus, y
+`src/reprocesar.py` para que los 267 queden evaluados con la misma versión del
+código:
 
 | | | |
 |---|---:|---|
-| Sin UOC en el aviso | **62 · 54%** | el organismo no tramita por COMPR.AR: **no existe registro estructurado** |
-| Con llave, sin registro cargado | 3 · 3% | el portal publica con retraso y 2026 está incompleto |
-| Candidato dudoso | 0 · 0% | ninguno quedó bajo el umbral |
-| **Emparejado con confianza** | **50 · 43%** | verificable |
+| **Emparejado y comparado** | **95 · 36%** | verificado |
+| Dudoso → revisión humana | 11 · 4% | el sistema no decide solo |
+| Con llave, sin registro cargado | 35 · 13% | el portal publica con retraso |
+| Sin UOC en el aviso | 126 · 47% | el organismo no tramita por COMPR.AR: **no existe registro estructurado** |
 
-De los 53 avisos a los que se les puede armar la llave, **50 encuentran su
-proceso en el registro: 94%.** El cuello de botella no es el cruce, es que la
-mitad de los avisos no declara UOC.
+### El formato decide, y la fecha de publicación también
 
-**Y el formato decide:**
-
-| Formato del aviso | Etiquetados | Verificables | |
+| Formato del aviso | Llamados | Verificados | |
 |---|---:|---:|---:|
-| COMPR.AR | 58 | **49** | **84%** |
-| Libre | 57 | 1 | 2% |
+| COMPR.AR | 143 | **94** | **66%** |
+| Libre | 124 | 1 | 1% |
 
-Es la misma frontera que el proyecto 01 encontró midiendo otra cosa: ahí el
-techo humano de extracción era 98,7% en COMPR.AR y 72,7% en formato libre. Dos
-proyectos, dos métodos, la misma grieta estructural.
+Ese 66% esconde lo más interesante del proyecto. Partido por edición del
+boletín:
+
+| Edición | Avisos COMPR.AR | Verificados | Sin registro | Tasa |
+|---|---:|---:|---:|---:|
+| 01/06/2026 | 29 | 25 | 2 | 86% |
+| 19/06/2026 | 24 | 19 | 0 | 79% |
+| 01/07/2026 | 15 | 14 | 0 | 93% |
+| 20/07/2026 | 34 | 34 | 0 | **100%** |
+| **03/08/2026** | **41** | **2** | **30** | **5%** |
+
+**El método funciona entre el 79% y el 100% en toda edición que el registro
+alcanzó. Excluyendo la del 3 de agosto: 92 de 102, el 90%.** La del 3 de agosto
+se derrumba porque el portal de datos abiertos tiene datos hasta julio.
+
+Y eso convierte el retraso de publicación en un hallazgo con número propio:
+**a dos meses y medio de publicada esa edición, el 73% de sus procesos todavía
+no estaba cargado en el portal de datos abiertos del Estado.** No es un defecto
+del proyecto: es un dato sobre la transparencia del sistema, y hay que separarlo
+del 47% de organismos que simplemente no usan COMPR.AR.
+
+La misma frontera por formato aparece en el proyecto 01, midiendo otra cosa: ahí
+el techo humano de extracción era 98,7% en COMPR.AR y 72,7% en formato libre.
+Dos proyectos, dos métodos, la misma grieta estructural.
 
 ### Las discrepancias
 
@@ -126,26 +144,42 @@ un hallazgo y no un artefacto de cómo se eligió el candidato:
 
 | Campo | Difiere | Lectura |
 |---|---:|---|
-| `tipo_procedimiento` | 0 / 50 | coinciden siempre |
-| `monto_estimado` | 0 / 50 | nunca difieren… porque el aviso casi nunca lo trae |
-| **`fecha_apertura`** | **10 / 50 · 20%** | **la fecha publicada queda vencida** |
+| `tipo_procedimiento` | 0 / 95 | coinciden siempre |
+| `monto_estimado` | 0 / 95 | nunca difieren… porque el aviso nunca lo trae |
+| **`fecha_apertura`** | **15 / 95 · 16%** | **la fecha publicada no es la del registro** |
 
-**Los diez corrimientos van hacia adelante y ninguno hacia atrás:** +6, +8,
-+10, +11, +12, +15, +18, +18, +20 y +41 días. Mediana 13,5, media 15,9. La
-dirección única descarta el ruido: son **prórrogas** que el registro refleja y
-el aviso publicado no.
+Los quince corrimientos, en días:
 
-Un proveedor que se guía por el Boletín Oficial —la publicación con validez
-jurídica— ve una fecha de cierre anterior a la real en uno de cada cinco
-llamados verificables. Y **la desactualización es invisible sin el cruce**: los
-avisos se leen como cualquier aviso normal.
+```
+-16, +3, +6, +8, +10, +11, +12, +14, +15, +15, +17, +18, +18, +19, +20
+```
+
+**Catorce hacia adelante y uno hacia atrás.** Mediana +14, media +11,3.
+
+Los catorce hacia adelante son **prórrogas** que el registro refleja y el aviso
+publicado no: el acto de apertura se movió y la publicación con validez jurídica
+quedó vieja.
+
+El que va hacia atrás (`53176-26`, −16 días) **es el peor de los quince para un
+oferente.** El aviso se publica el 31/07 anunciando apertura el 19/08; el
+registro dice que abrió el 03/08. Una prórroga te da más tiempo del que creías.
+Esto te lo quita: te preparás para el 19 y el acto ya pasó. El emparejamiento es
+sólido —objeto idéntico, candidato único, confianza 1,0— así que no es un error
+de cruce.
+
+**Y acá hay una lección de método que vale más que el número.** Sobre los 50
+avisos del subconjunto etiquetado, los diez corrimientos iban *todos* hacia
+adelante, y este README afirmaba "nunca hacia atrás". Con los 95 del corpus
+completo apareció el caso contrario. **La muestra chica sostenía una afirmación
+más fuerte que la que sostienen los datos completos.** Para eso sirve agrandar
+la muestra, y la afirmación se corrigió en lugar de defenderse.
 
 ### La brecha de cobertura, que no es lo mismo
 
 | Campo | El aviso lo omite y el registro lo tiene |
 |---|---:|
-| `monto_estimado` | **49 de 50 · 98%** |
-| `fecha_apertura` | 8 de 50 · 16% |
+| `monto_estimado` | **95 de 95 · 100%** |
+| `fecha_apertura` | 14 de 95 · 15% |
 
 El registro publica montos de cientos de millones de pesos que el aviso no trae.
 Quien lee el Boletín no puede saber el presupuesto del llamado; quien lee el
@@ -157,11 +191,11 @@ propósito**: mezclarlas infla el hallazgo con algo que no es un error de nadie.
 
 ## El agente contra la verdad de referencia humana
 
-Acá está lo que casi ningún proyecto con modelo mide. `src/cruzar.py` hizo el
-mismo emparejamiento partiendo de las etiquetas a mano; el agente lo hizo
-extrayendo por su cuenta. Comparar las dos corridas mide **cuánto se degrada el
-sistema completo cuando el extractor se equivoca** — que no es lo mismo que la
-precisión del extractor.
+Acá está lo que casi ningún proyecto con modelo mide. Sobre los 115 avisos con
+etiqueta manual, `src/cruzar.py` hizo el mismo emparejamiento partiendo de las
+etiquetas; el agente lo hizo extrayendo por su cuenta. Comparar las dos corridas
+mide **cuánto se degrada el sistema completo cuando el extractor se equivoca** —
+que no es lo mismo que la precisión del extractor.
 
 | | |
 |---|---:|
@@ -184,37 +218,43 @@ sistema.
 
 ### Costo de operarlo
 
+Sobre los 267 llamados:
+
 | | |
 |---|---:|
-| Costo por aviso | **USD 0,000739** |
+| Costo total | **USD 0,1970** |
+| Costo por aviso | **USD 0,000738** |
 | Costo por 1.000 avisos | USD 0,74 |
-| Tokens | 87.823 entrada · 23.434 salida |
-| Latencia mediana / p95 | 2,0 s / 3,1 s |
-| Tiempo de reloj por aviso | 4,1 s (~15 avisos/min, con el cupo gratuito) |
-| Fallas de extracción | **0 de 115** |
+| Tokens | 205.590 entrada · 54.147 salida |
+| Latencia mediana / p95 | 3,3 s / 4,3 s |
+| **Fallas de extracción** | **0 de 267** |
 
 Contra la línea de base humana medida en el proyecto 01 —113 s y USD 0,058 por
 documento, con el costo humano anclado al salario mínimo legal—: **28× más
-rápido y 79× más barato.** El modelo elegido (`gemini-3.5-flash-lite`) no se
-eligió acá: es la conclusión medida del proyecto 01, donde el modelo cinco veces
-más caro no justificó su precio.
+rápido y 79× más barato.** El modelo (`gemini-3.5-flash-lite`) no se eligió acá:
+es la conclusión medida del proyecto 01, donde el modelo cinco veces más caro no
+justificó su precio.
+
+Las cero fallas en 267 llamadas no son suerte: el cupo gratuito de Google son 15
+llamadas por minuto y la corrida lo tocó varias veces. Los reintentos con espera
+exponencial sobre errores transitorios recuperaron todas.
 
 ---
 
 ## Lo que esto le enseñó al proyecto 01
 
 **El modelo encontró un error en el set de oro etiquetado a mano.** El aviso
-`44538-26` estaba etiquetado con apertura `3/07/2026`; el texto del aviso dice
+`44538-26` estaba etiquetado con apertura `3/07/2026`; el texto dice
 `13/07/2026`. Un typo. Eso hacía que el análisis reportara una prórroga de +10
 días que no existía.
 
-Encontrado uno, hay que preguntarse cuántos más hay. Los 50 avisos emparejados
-se auditaron con un lector determinista del bloque `Acto de Apertura` —ninguna
+Encontrado uno, hay que preguntarse cuántos más hay. Los avisos emparejados se
+auditaron con un lector determinista del bloque `Acto de Apertura` —ninguna
 llamada a modelo, costo cero—:
 
 | | |
 |---|---:|
-| Con bloque legible | 29 de 50 |
+| Con bloque legible | 29 |
 | Etiquetas mal | **1** |
 | Extracciones del modelo mal | **0 de 29** |
 | Sin bloque (formato libre): no auditables | 21 |
@@ -236,9 +276,8 @@ donde dice `13/07`.
 
 ## Cómo se encontraron seis bugs sin gastar una llamada
 
-La primera corrida sobre los 115 avisos reportó **cero discrepancias** y
-`fecha_apertura` "omitida por el Boletín" en el **100%** de los casos
-emparejados.
+La primera corrida reportó **cero discrepancias** y `fecha_apertura` "omitida por
+el Boletín" en el **100%** de los casos emparejados.
 
 Un número demasiado limpio no es un hallazgo, es una pista. **Cero discrepancias
 no era "no encontré nada": era "no comparé nada".** Tirando de ese hilo
@@ -253,7 +292,7 @@ aparecieron seis bugs, los seis en el código propio y ninguno en el modelo:
 | 5 | `n_monto` leía `2.797` como 2,8 | en castellano el punto separa miles |
 | 6 | `tipo_procedimiento` comparaba vocabularios distintos | el registro usa una lista cerrada de 6 valores, el Boletín escribe texto libre: `Subasta Pública` contra `Subasta` se reportaba como discrepancia |
 
-**Resultado de los seis arreglos:**
+**Resultado de los seis arreglos, sobre los 115 etiquetados:**
 
 | | antes | después |
 |---|---:|---:|
@@ -276,12 +315,19 @@ todo lo que sigue      gratis · instantánea · determinista
 
 La traza guarda el campo `extraido`: exactamente lo que el modelo devolvió en
 cada caso. `src/reprocesar.py` vuelve a correr la mitad determinista sobre esas
-extracciones guardadas, con el código actual. **Los seis arreglos se verificaron
-a USD 0,00 cada uno**, cuando volver a correr el agente completo costaba USD
-0,08 y 8 minutos por intento.
+extracciones, con el código actual. **Los seis arreglos se verificaron a USD 0,00
+cada uno**, cuando volver a correr el agente completo costaba USD 0,20 y media
+hora por intento.
 
 Por eso `procesar()` está partido en `extraer()` y `decidir()`: **la frontera
 entre lo caro y lo reproducible está en una sola línea, a propósito.**
+
+Y resolvió un problema que no habíamos previsto: los primeros 115 casos se
+corrieron con la lógica vieja y los 152 restantes con la arreglada. Informar
+sobre esa traza habría mezclado dos versiones del código en un mismo número —
+la clase de error que nadie detecta hasta que alguien lo compara en una
+entrevista. `reprocesar.py` dejó los 267 evaluados con la misma versión, sin
+pagar una llamada.
 
 `reprocesar.py` **no toca** `reports/traza.jsonl`. Esa es la traza de lo que el
 agente hizo —un log de auditoría— y reescribirla para que diga otra cosa es
@@ -337,7 +383,7 @@ echo "GOOGLE_API_KEY=..." > .env
 
 python src/verificar_cruce.py data/registro/convocatorias.csv data/entrada/etiquetas_p01.jsonl
 python src/cruzar.py                           # el análisis: el oráculo
-python src/agente.py --solo-etiquetados        # el sistema
+python src/agente.py                           # el sistema, sobre los 267
 python src/reprocesar.py                       # recalcula sin llamar al modelo
 python src/informe.py --traza reports/traza-reproceso.jsonl
 ```
@@ -352,21 +398,23 @@ el registro oficial, de [datos.gob.ar](https://datos.gob.ar/dataset?tags=Contrat
 
 ## Lo que no resuelve
 
-- **El 54% de los avisos no tiene contraparte.** Universidades, BCRA, Banco
+- **El 47% de los avisos no tiene contraparte.** Universidades, BCRA, Banco
   Nación, Ministerio Público y banca multilateral publican en el Boletín pero no
-  tramitan por COMPR.AR: **para la mitad de los llamados no hay nada contra qué
-  verificar**, y es justo donde la extracción importa más. El 43% es cobertura
-  real, no un número maquillado.
-- **Los 21 avisos de formato libre entre los emparejados no se pudieron auditar
+  tramitan por COMPR.AR: **para casi la mitad de los llamados no hay nada contra
+  qué verificar**, y es justo donde la extracción importa más.
+- **El 13% tiene llave pero el registro no cargó el proceso**, y está
+  concentrado en una sola edición (30 de 35 son del 3/8). Eso hace que el 36%
+  global subestime lo que el método puede hacer y a la vez mida algo real sobre
+  el portal. Los dos números se informan separados y ninguno reemplaza al otro.
+- **Los avisos de formato libre entre los emparejados no se pudieron auditar
   contra el texto**: no tienen un bloque `Acto de Apertura` legible por regla
   determinista. Declarado, no resuelto.
-- **El registro oficial llega hasta julio de 2026.** 6.020 convocatorias
-  cargadas en 2026 contra ~15.000 por año en ejercicios anteriores. Parte de los
-  `sin_registro` es retraso de publicación, no ausencia — y ese retraso es un
-  hallazgo con nombre propio, no un defecto del proyecto.
-- **El set de validación es de 115 avisos de 5 ediciones.** Suficiente para
-  medir degradación, corto para afirmar una tasa nacional. La dirección única de
-  los diez corrimientos es el resultado robusto; el 20% exacto no lo es.
+- **El corpus son 267 llamados de 5 ediciones de 2026.** Suficiente para medir
+  degradación y cobertura por formato, corto para afirmar una tasa nacional. El
+  16% de discrepancias es un orden de magnitud, no una cifra.
+- **La asimetría de dirección es el resultado más frágil.** Con 50 casos daba
+  10 de 10 hacia adelante; con 95 dio 14 de 15. La tendencia a prórroga se
+  sostiene, el "nunca hacia atrás" no.
 - **La confianza de emparejamiento usa `fecha_apertura` del registro contra la
   fecha de publicación del aviso**, y después se reporta `fecha_apertura` como
   hallazgo. Son cantidades distintas —nunca se toca la apertura extraída— así
@@ -391,14 +439,18 @@ el registro oficial, de [datos.gob.ar](https://datos.gob.ar/dataset?tags=Contrat
 - **Un campo usado para emparejar no se puede reportar como hallazgo.** La
   primera versión usaba `tipo_procedimiento` en el puntaje de confianza y
   después reportaba 0% de discrepancia en tipo. Era circular por construcción.
-  Está fuera de los pesos y el código marca cada campo como `reportable` o no.
+  Está fuera de los pesos, y el código marca cada campo como `reportable` o no.
 - **El monto no se cuenta como discrepancia cuando el aviso no lo trae**, y un
   monto en otra moneda no se compara en absoluto: `USD 2.797` contra `2797,00`
   del registro parecen la misma cifra y no lo son. Ese caso se marca
   `no_comparable` en vez de elegir una de las dos interpretaciones.
 - **Un número sospechosamente limpio se investiga antes de reportarlo.** Cero
-  discrepancias sobre 36 casos era un bug propio, no un hallazgo. Esta es la
-  decisión de método que más valor produjo en todo el proyecto.
+  discrepancias sobre 36 casos era un bug propio, no un hallazgo. Es la decisión
+  de método que más valor produjo en todo el proyecto.
+- **La cobertura se parte por edición antes de reportar un promedio.** El 66% de
+  los avisos COMPR.AR esconde cuatro ediciones entre 79% y 100% y una en 5%.
+  Promediar eso habría ocultado tanto la capacidad del método como el retraso
+  del portal.
 - **El modelo no se eligió acá.** `gemini-3.5-flash-lite` es la conclusión
   medida del proyecto 01. Y la versión está fijada en `requirements.txt`: una
   corrida de benchmark no se compara contra un `latest` que cambia abajo de los
