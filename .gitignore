@@ -19,3 +19,4 @@ data/entrada/avisos/
 diagnostico.txt
 reports/corrida*.txt
 reports/informe.txt
+reports/_pares.json
