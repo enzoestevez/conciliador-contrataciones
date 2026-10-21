@@ -14,3 +14,8 @@ data/registro/*
 data/entrada/avisos/
 
 .DS_Store
+
+# Salidas de terminal capturadas con Tee-Object al diagnosticar
+diagnostico.txt
+reports/corrida*.txt
+reports/informe.txt
